@@ -48,8 +48,8 @@ html {
 }
 
 .recipe-div {
-    background-color: rgba(228, 195, 6, 0.95);
-    width: 100%;
+    background-color: rgba(7,124,114, 0.95);
+    width: 90%;
     padding: 2vmin;
     margin-bottom: 1vmin;
     margin-top: 1vmin;
@@ -57,19 +57,28 @@ html {
     align-self: center;
     box-shadow: -4px 4px 4px rgba(20, 20, 20, 0.445);
     border-radius: 8pt;
+    color: antiquewhite;
 }
 
 .food-img {
     height: 20vh;
+    position: absolute;
+    left: 0px;
+    justify-self: flex-start;
 }
 
 .img-and-ingredients {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    min-height: 22vh;
 }
 
 .dish-name {
     margin: 0px;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Lilita One', cursive;
+
 }
 
 .ingredients-div {
@@ -79,7 +88,9 @@ html {
 
 .section-topper-h2 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 1.5vw;
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Lilita One', cursive; */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
@@ -103,6 +114,11 @@ html {
 
     .current-page-space {
         padding-top: 30.5vw;
+    }
+
+    .section-topper-h2 {
+        text-align: center;
+        font-size: 5vw;
     }
 }
 
