@@ -1,0 +1,69 @@
+.navbar-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    /* background-color: rgba(1, 25, 54, 0.8); */
+    padding: 0;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.navbar-li {
+    text-align: center;
+    min-width: 30%;
+    background-color: rgba(1, 25, 54);
+    color: rgb(251,240,222);
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    font-family: 'Voltaire', sans-serif;
+}
+
+.navbar-li:hover *{
+    font-size: 3vw;
+}
+
+.navbar-h1 {
+    font-size: inherit;
+}
+
+.active-tab {
+    background-color: rgb(178, 190, 181);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .navbar-ul {
+        width: 100%;
+    }
+
+    .navbar-h1 {
+        width: 100%;
+        font-size: 6.2vw;
+        margin: 0px;
+    }
+
+    .navbar-li {
+        height: 8vh;
+    }
+
+    .navbar-li:hover *{
+        font-size: 6.2vw;
+    }
+
+    .navbar-li:hover {
+        background-color: rgb(178, 190, 181);
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+    .navbar-li:hover *{
+        font-size: 6vw;
+    }
+}
