@@ -1,40 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import '../stylesheets/MainDishes.css';
 
-export default function MainDishes(props) {
+export default function MainDishes({ query }) {
     const recipes = [
         {
-            name: "Main Dish #1",
+            name: "Vegetable Medley",
             ingredients: ["peas", "carrots", "tomatoes"],
             instructions: ["Do some of this", "Do some of that", "Do some of this other stuff"],
             image: fakeImage
         },
         {
-            name: "Main Dish #2",
+            name: "Blueberry Cereal",
             ingredients: ["blueberries", "milk", "cereal"],
             instructions: ["Do some of this", "Do some of that", "Do some of this other stuff"],
             image: fakeImage
         },
         {
-            name: "Main Dish #3",
+            name: "Steak and Potatoes",
             ingredients: ["potatoes", "onions", "steak"],
             instructions: ["Do some of this", "Do some of that", "Do some of this other stuff"],
             image: fakeImage
         },
         {
-            name: "Main Dish #4",
+            name: "Weird Stuff",
             ingredients: ["rutabega", "turnips", "paprika"],
             instructions: ["Do some of this", "Do some of that", "Do some of this other stuff"],
             image: fakeImage
         },
         {
-            name: "Main Dish #5",
+            name: "Fruity Jello",
             ingredients: ["pears", "strawberries", "jello"],
             instructions: ["Do some of this", "Do some of that", "Do some of this other stuff"],
             image: fakeImage
         }
     ]
+
+    const [mainRecipesShown, setMainRecipesShown] = useState([...recipes])
 
     const ingredients = (array) => {
         return array.map(ingredient => {
@@ -52,32 +54,47 @@ export default function MainDishes(props) {
 
     }
 
-    const mainDishes = recipes.map(recipe => {
+    let mainDishesRegex = new RegExp(query, "i")
+
+    const filterDishes = () => {    
+        if(query.length > 0) {
+            let newDishes = [...recipes].filter(dish => mainDishesRegex.test(dish.name))
+            setMainRecipesShown(newDishes)
+        } else if (query.length === 0) {
+            setMainRecipesShown([...recipes])
+        }
+    }
+
+    const mainDishes = mainRecipesShown.map(recipe => {
         return <div className="recipe-div">
-            <h1 className="dish-name">Main Dish #{parseInt(recipes.indexOf(recipe)) + 1}</h1>
+            <h1 className="dish-name">{recipe.name}</h1>
             <div className="img-and-ingredients">
                 <img className="food-img" alt={recipe.name} src={recipe.image}></img>
                 <div className="ingredients-or-instructions-div">
                     <h2 className="section-topper-h2">Ingredients</h2>
                     <ul>
-                        {ingredients(recipes[recipes.indexOf(recipe)].ingredients)}
+                        {ingredients(mainRecipesShown[mainRecipesShown.indexOf(recipe)].ingredients)}
                     </ul>
                 </div>
             </div>
             <div className="ingredients-or-instructions-div">
                 <h2 className="section-topper-h2">Instructions</h2>
                 <ul>
-                    {instructions(recipes[recipes.indexOf(recipe)].instructions)}
+                    {instructions(mainRecipesShown[mainRecipesShown.indexOf(recipe)].instructions)}
                 </ul>
             </div>
             <button onClick={handleRecipeClick}>Original Recipe</button>
         </div>
     })
 
+    useEffect(() => {
+        filterDishes()
+    }, [query])
+
     return(
         <div className="main-dishes-div">
             <div className="grid-div">
-                {mainDishes}
+                {mainRecipesShown.length > 0 ? mainDishes : <h1>Sorry, no results matching "{query}"</h1>}
             </div>
         </div>
     )
