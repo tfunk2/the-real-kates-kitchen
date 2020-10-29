@@ -1,0 +1,178 @@
+html {
+    background-image: url("./images/cherry-seamless.jpg");
+    background-size: 30vw;
+    background-attachment: fixed;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.App {
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+.app-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(1, 25, 54, 0.85);
+    box-shadow: 0px 4px 4px rgba(20, 20, 20, 0.5);
+    z-index: 1000;
+    color: rgb(251,240,222);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.the-real-text {
+    font-family: 'Kalam', cursive;
+    font-size: 3vw;
+}
+
+.kates-text {
+    text-shadow: 2px 2px 1px rgb(1, 25, 54);
+    margin: 0px 0px 0px 1vw;
+    font-family: 'Lilita One', cursive;
+    font-size: 5vw;
+}
+
+.kitchen-text {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 4.5vw;
+}
+
+.current-page-space {
+    padding-top: 13vw;
+}
+
+.recipe-div {
+    background-color: rgba(7,124,114, 0.95);
+    width: 90%;
+    padding: 2vmin;
+    margin-bottom: 1vmin;
+    margin-top: 1vmin;
+    justify-self: center;
+    align-self: center;
+    box-shadow: -4px 4px 4px rgba(20, 20, 20, 0.445);
+    border-radius: 8pt;
+    color: antiquewhite;
+}
+
+.food-img {
+    height: 20vh;
+}
+
+.img-and-ingredients {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 22vh;
+    height: auto;
+}
+
+.dish-name {
+    margin: 0px;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Lilita One', cursive;
+
+}
+
+.ingredients-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-topper-h2 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Lilita One', cursive; */
+}
+
+.ingredients-or-instructions-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .app-header {
+        width: 100%;
+    }
+
+    .header-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-bar-div {
+        margin-right: 0px;
+    }
+
+    .the-real-text {
+        font-size: 6vw;
+    }
+    
+    .kates-text {
+        width: 100%;
+        text-align: center;
+        font-size: 10vw;
+    }
+    
+    .kitchen-text {
+        font-size: 9vw;
+    }
+
+    .current-page-space {
+        padding-top: 30.5vw;
+    }
+
+    .section-topper-h2 {
+        text-align: center;
+        font-size: 5vw;
+    }
+    
+    .food-img {
+    }
+    
+    .img-and-ingredients {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .ingredients-or-instructions-div {
+
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+    .app-header {
+        width: 100%;
+    }
+
+    .the-real-text {
+        font-size:4vw;
+    }
+    
+    .kates-text {
+        width: 100%;
+        text-align: center;
+        font-size: 6.6vw;
+    }
+    
+    .kitchen-text {
+        font-size: 6vw;
+    }
+
+    .current-page-space {
+        padding-top: 17vw;
+    }
+}
