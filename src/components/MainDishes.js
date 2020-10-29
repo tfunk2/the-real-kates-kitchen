@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import '../stylesheets/MainDishes.css';
 
-export default function MainDishes({ query }) {
+export default function MainDishes({ query, setClickedRecipe }) {
     const recipes = [
         {
             name: "Vegetable Medley",
@@ -50,8 +50,8 @@ export default function MainDishes({ query }) {
         })
     }
 
-    const handleRecipeClick = () => {
-
+    const handleRecipeClick = (name) => {
+        setClickedRecipe(name)
     }
 
     let mainDishesRegex = new RegExp(query, "i")
@@ -83,7 +83,7 @@ export default function MainDishes({ query }) {
                     {instructions(mainRecipesShown[mainRecipesShown.indexOf(recipe)].instructions)}
                 </ul>
             </div>
-            <button onClick={handleRecipeClick}>Original Recipe</button>
+            <button onClick={() => handleRecipeClick(recipe.name)}>Original Recipe</button>
         </div>
     })
 

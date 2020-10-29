@@ -5,24 +5,29 @@ import SideDishes from './components/SideDishes.js'
 import Desserts from './components/Desserts.js'
 import NavBar from './components/NavBar.js'
 import SearchBar from './components/SearchBar.js'
+import RecipeModal from './components/RecipeModal.js'
 
 function App() {
   const [activePage, setActivePage] = useState("main");
   const [query, setQuery] = useState("");
+  const [clickedRecipe, setClickedRecipe] = useState("");
 
   const currentPage = () => {
     switch(activePage) {
       case "main": 
         return <MainDishes 
           query={query}
+          setClickedRecipe={setClickedRecipe}
         />;
       case "side":
         return <SideDishes 
           query={query}
+          setClickedRecipe={setClickedRecipe}
         />;
       case "dessert":
         return <Desserts 
           query={query}
+          setClickedRecipe={setClickedRecipe}
         />;
       default:
         return <></>;
@@ -31,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      {clickedRecipe === "" ? <></> : <RecipeModal clickedRecipe={clickedRecipe} setClickedRecipe={setClickedRecipe}/>}
       <header className="app-header">
         <div className="header-div">
           <h1 className="kates-text">
