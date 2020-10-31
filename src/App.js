@@ -35,8 +35,13 @@ function App() {
   }
 
   return (
-    <div className="App">
-      {clickedRecipe === "" ? <></> : <RecipeModal clickedRecipe={clickedRecipe} setClickedRecipe={setClickedRecipe}/>}
+    <div className={clickedRecipe === "" ? "App" : "App darkened"}>
+      {
+        clickedRecipe === "" ? <></> : 
+        <RecipeModal clickedRecipe={clickedRecipe} 
+          setClickedRecipe={setClickedRecipe}
+        />
+      }
       <header className="app-header">
         <div className="header-div">
           <h1 className="kates-text">

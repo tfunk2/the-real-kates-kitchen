@@ -25,8 +25,8 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
 
     return (
         <div className="recipe-modal">
-            {whichImage()}
             <button className="x-button" onClick={handleXClick}>X</button>
+            {whichImage()}
         </div>
     )
 }
