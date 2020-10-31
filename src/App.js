@@ -44,18 +44,20 @@ function App() {
       }
       <header className="app-header">
         <div className="header-div">
-          <h1 className="kates-text">
+          <h1 className={clickedRecipe === "" ? "kates-text" : "kates-text-darker"}>
             <span className="the-real-text">The Real </span>KATE'S <span className="kitchen-text">KITCHEN</span>
           </h1>
           <SearchBar 
             query={query}
             setQuery={setQuery}
             activePage={activePage}
+            clickedRecipe={clickedRecipe}
           />
         </div>
         <NavBar 
           setActivePage={setActivePage}
           activePage={activePage}
+          clickedRecipe={clickedRecipe}
         />
       </header>
       <div className="current-page-space">

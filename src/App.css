@@ -49,6 +49,14 @@ button:focus {
     font-size: 5vw;
 }
 
+.kates-text-darker {
+    text-shadow: 2px 2px 1px rgb(1, 25, 54);
+    margin: 0px 0px 0px 1vw;
+    font-family: 'Lilita One', cursive;
+    font-size: 5vw;
+    color: rgb(135,130,119);
+}
+
 .kitchen-text {
     font-family: 'Voltaire', sans-serif;
     font-size: 4.5vw;

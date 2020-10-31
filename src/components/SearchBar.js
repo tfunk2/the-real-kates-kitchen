@@ -1,7 +1,7 @@
 import React from 'react';
 import '../stylesheets/SearchBar.css'
 
-const SearchBar = ({ query, setQuery, activePage }) => {
+const SearchBar = ({ query, setQuery, activePage, clickedRecipe }) => {
     const handleXClick = () => {
         setQuery("")
     }
@@ -9,7 +9,7 @@ const SearchBar = ({ query, setQuery, activePage }) => {
     return (
         <div className="search-bar-div">
             <input 
-                className="search-bar"
+                className={clickedRecipe === "" ? "search-bar" : "search-bar-darker"}
                 key="random1"
                 maxLength={60}
                 value={query}
@@ -22,7 +22,7 @@ const SearchBar = ({ query, setQuery, activePage }) => {
                 onChange={(e) => setQuery(e.target.value)}
             />
             <button onClick={handleXClick}
-                className="x-button"
+                className={clickedRecipe === "" ? "x-button" : "x-button-darker"}
             >
                 X
             </button>

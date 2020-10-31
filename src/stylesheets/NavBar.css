@@ -38,6 +38,10 @@
     background-color: rgb(178, 190, 181);
 }
 
+.active-tab-dark {
+    background-color: rgb(128, 138, 131);
+}
+
 @media only screen and (min-width: 320px) and (max-width: 425px) {
     .navbar-ul {
         width: 100%;
