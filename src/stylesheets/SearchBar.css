@@ -65,7 +65,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
     .search-bar-div {
         margin-right: 1vw;
         margin-bottom: 1vw;
@@ -84,7 +84,7 @@
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 767px) {
+@media only screen and (min-width: 426px) and (max-width: 767px) {
     .search-bar-div {
         margin-right: 1vw;
         margin-bottom: 1vw;

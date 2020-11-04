@@ -133,7 +133,7 @@ button:focus {
 }
 
 .modal-img {
-    width: 80vw;
+    /* width: 80vw; */
     height: 86vh;
     object-fit: contain;
     border-radius: 8pt;
@@ -142,11 +142,12 @@ button:focus {
 .recipe-modal {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgba(1, 25, 54, 0.97);
-    height: 90vh;
+    height: 100vh;
     /* max-height: 80vh; */
-    width: 86vw;
+    width: 100vw;
     /* max-width: 80vw; */
     /* max-height: 90vh;
     max-width: 80vw; */
@@ -156,7 +157,6 @@ button:focus {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
     border-radius: 8pt;
-    padding-bottom: 2.5vw;
     z-index: 1002;
 }
 
@@ -167,7 +167,7 @@ button:focus {
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .current-page-space {
-        padding-top: 130px;
+        padding-top: 150px;
     }
 
     .app-header {
@@ -226,11 +226,21 @@ button:focus {
         /* position: absolute;
         right: 24%; */
     }
+
+    .modal-img {
+        width: 100vw;
+        object-fit: contain;
+        border-radius: 8pt;
+    }
+
+    /* .recipe-modal {
+
+    } */
 }
 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
     .current-page-space {
-        padding-top: 140px;
+        padding-top: 160px;
     }
 
     .section-topper-h2 {
@@ -289,9 +299,19 @@ button:focus {
         /* position: absolute;
         right: 24%; */
     }
+
+    .modal-img {
+        width: 100vw;
+        object-fit: contain;
+        border-radius: 8pt;
+    }
+
+    /* .recipe-modal {
+        
+    } */
 }
 
-@media only screen and (min-width: 425px) and (max-width: 767px) {
+@media only screen and (min-width: 426px) and (max-width: 767px) {
     .app-header {
         width: 100%;
     }
@@ -311,7 +331,7 @@ button:focus {
     }
 
     .current-page-space {
-        padding-top: 160px;
+        padding-top: 180px;
     }
 
     .recipe-div {
@@ -364,6 +384,16 @@ button:focus {
         /* position: absolute;
         right: 24%; */
     }
+
+    .modal-img {
+        width: 100vw;
+        object-fit: contain;
+        border-radius: 8pt;
+    }
+
+    /* .recipe-modal {
+        
+    } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -426,6 +456,16 @@ button:focus {
         display: grid;
         grid-template-columns: 45vw 45vw;
     }
+
+    .modal-img {
+        height: 88vh;
+        object-fit: contain;
+        border-radius: 8pt;
+    }
+
+    /* .recipe-modal {
+        
+    } */
 }
 
 /* changing the space at the top for different sizes */

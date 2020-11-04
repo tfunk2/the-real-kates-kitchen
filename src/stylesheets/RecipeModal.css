@@ -3,6 +3,7 @@
     border: none;
     border-radius: 4px;
     padding: 5px 7px;
-    margin: 4px;
+    margin: 12px 9px;
     align-self: flex-start;
+    justify-self: flex-start;
 }

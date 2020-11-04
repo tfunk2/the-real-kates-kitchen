@@ -66,7 +66,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
     .navbar-ul {
         width: 100%;
     }
@@ -90,7 +90,7 @@
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 767px) {
+@media only screen and (min-width: 426px) and (max-width: 767px) {
     .navbar-li:hover *{
         font-size: 22pt;
     }
