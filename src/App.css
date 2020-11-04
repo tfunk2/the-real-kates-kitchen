@@ -78,11 +78,25 @@ button:focus {
     box-shadow: -4px 4px 4px rgba(20, 20, 20, 0.445);
     border-radius: 8pt;
     color: antiquewhite;
+    position: relative;
+    min-height: 238px;
 }
 
 .food-img {
     height: 200px;
     border-radius: 8pt;
+}
+
+.unexpanded-img {
+    /* position: absolute;
+    right: 24%; */
+}
+
+.arrow-img {
+    height: 10px;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
 }
 
 .img-and-ingredients {
@@ -190,8 +204,6 @@ button:focus {
     .img-and-ingredients {
         display: flex;
         flex-direction: column;
-        justify-self: center;
-        align-items: center;
     }
 
     .ingredients-or-instructions-div {
@@ -199,7 +211,7 @@ button:focus {
     }
 
     .dish-name {
-        text-align: center;
+        /* text-align: center; */
     }
 
     .grid-div {
@@ -208,6 +220,11 @@ button:focus {
         justify-content: center;
         align-items: center;
         width: 96%;
+    }
+
+    .unexpanded-img {
+        /* position: absolute;
+        right: 24%; */
     }
 }
 
@@ -250,8 +267,6 @@ button:focus {
     .img-and-ingredients {
         display: flex;
         flex-direction: column;
-        justify-self: center;
-        align-items: center;
     }
 
     .ingredients-or-instructions-div {
@@ -259,7 +274,7 @@ button:focus {
     }
 
     .dish-name {
-        text-align: center;
+        /* text-align: center; */
     }
 
     .grid-div {
@@ -268,6 +283,11 @@ button:focus {
         justify-content: center;
         align-items: center;
         width: 96%;
+    }
+
+    .unexpanded-img {
+        /* position: absolute;
+        right: 24%; */
     }
 }
 
@@ -317,8 +337,6 @@ button:focus {
     .img-and-ingredients {
         display: flex;
         flex-direction: column;
-        justify-self: center;
-        align-items: center;
     }
 
     .ingredients-or-instructions-div {
@@ -326,7 +344,7 @@ button:focus {
     }
 
     .dish-name {
-        text-align: center;
+        /* text-align: center; */
     }
 
     /* .grid-div {
@@ -340,6 +358,11 @@ button:focus {
         justify-content: center;
         align-items: center;
         width: 96%;
+    }
+
+    .unexpanded-img {
+        /* position: absolute;
+        right: 24%; */
     }
 }
 
@@ -389,8 +412,6 @@ button:focus {
     .img-and-ingredients {
         display: flex;
         flex-direction: column;
-        justify-self: center;
-        align-items: center;
     }
 
     .ingredients-or-instructions-div {
@@ -398,7 +419,7 @@ button:focus {
     }
 
     .dish-name {
-        text-align: center;
+        /* text-align: center; */
     }
 
     .grid-div {
