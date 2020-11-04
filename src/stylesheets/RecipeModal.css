@@ -1,0 +1,8 @@
+.x-button {
+    background-color: rgb(235,103,90);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 7px;
+    margin: 4px;
+    align-self: flex-start;
+}

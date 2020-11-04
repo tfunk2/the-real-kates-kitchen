@@ -1,4 +1,5 @@
 html {
+    background-color: rgba(1, 25, 54, 0.85);
     background-image: url("./images/cherry-seamless.jpg");
     background-size: 30vw;
     background-attachment: fixed;
@@ -11,6 +12,11 @@ button:focus {
 
 .App {
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+.darkened {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
 }
 
 .app-header {
@@ -29,6 +35,7 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: none;
 }
 
 .the-real-text {
@@ -41,6 +48,14 @@ button:focus {
     margin: 0px 0px 0px 1vw;
     font-family: 'Lilita One', cursive;
     font-size: 5vw;
+}
+
+.kates-text-darker {
+    text-shadow: 2px 2px 1px rgb(1, 25, 54);
+    margin: 0px 0px 0px 1vw;
+    font-family: 'Lilita One', cursive;
+    font-size: 5vw;
+    color: rgb(135,130,119);
 }
 
 .kitchen-text {
@@ -66,7 +81,8 @@ button:focus {
 }
 
 .food-img {
-    height: 20vh;
+    height: 200px;
+    border-radius: 8pt;
 }
 
 .img-and-ingredients {
@@ -91,7 +107,7 @@ button:focus {
 
 .section-topper-h2 {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 24px;
     font-family: 'Kalam', cursive;
     /* font-family: 'Lilita One', cursive; */
 }
@@ -102,7 +118,44 @@ button:focus {
     width: 100%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+.modal-img {
+    width: 80vw;
+    height: 86vh;
+    object-fit: contain;
+    border-radius: 8pt;
+}
+
+.recipe-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(1, 25, 54, 0.97);
+    height: 90vh;
+    /* max-height: 80vh; */
+    width: 86vw;
+    /* max-width: 80vw; */
+    /* max-height: 90vh;
+    max-width: 80vw; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border-radius: 8pt;
+    padding-bottom: 2.5vw;
+    z-index: 1002;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .current-page-space {
+        padding-top: 130px;
+    }
+
     .app-header {
         width: 100%;
     }
@@ -110,10 +163,6 @@ button:focus {
     .header-div {
         display: flex;
         flex-direction: column;
-    }
-
-    .search-bar-div {
-        margin-right: 0px;
     }
 
     .the-real-text {
@@ -130,13 +179,9 @@ button:focus {
         font-size: 9vw;
     }
 
-    .current-page-space {
-        padding-top: 30.5vw;
-    }
-
     .section-topper-h2 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 20px;
     }
     
     .food-img {
@@ -146,14 +191,159 @@ button:focus {
         display: flex;
         flex-direction: column;
         justify-self: center;
+        align-items: center;
     }
 
     .ingredients-or-instructions-div {
 
     }
+
+    .dish-name {
+        text-align: center;
+    }
+
+    .grid-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+    }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1024px) {
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .current-page-space {
+        padding-top: 140px;
+    }
+
+    .section-topper-h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .app-header {
+        width: 100%;
+    }
+
+    .header-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .the-real-text {
+        font-size: 6vw;
+    }
+    
+    .kates-text {
+        width: 100%;
+        text-align: center;
+        font-size: 10vw;
+    }
+    
+    .kitchen-text {
+        font-size: 9vw;
+    }
+    
+    .food-img {
+    }
+    
+    .img-and-ingredients {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .ingredients-or-instructions-div {
+
+    }
+
+    .dish-name {
+        text-align: center;
+    }
+
+    .grid-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .app-header {
+        width: 100%;
+    }
+
+    .the-real-text {
+        font-size: 18pt;
+    }
+    
+    .kates-text {
+        width: 100%;
+        text-align: center;
+        font-size: 30pt;
+    }
+    
+    .kitchen-text {
+        font-size: 27pt;
+    }
+
+    .current-page-space {
+        padding-top: 160px;
+    }
+
+    .recipe-div {
+        margin-top: 1vmin;
+        margin-bottom: 1vmin;
+    }
+
+    /* hey */
+
+    .header-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-topper-h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .food-img {
+    }
+    
+    .img-and-ingredients {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .ingredients-or-instructions-div {
+
+    }
+
+    .dish-name {
+        text-align: center;
+    }
+
+    /* .grid-div {
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+    } */
+
+    .grid-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .app-header {
         width: 100%;
     }
@@ -173,6 +363,72 @@ button:focus {
     }
 
     .current-page-space {
-        padding-top: 17vw;
+        padding-top: 140px;
+    }
+
+    .recipe-div {
+        margin-top: 0vmin;
+        margin-bottom: 1vmin;
+    }
+
+    /* hey */
+
+    /* .header-div {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .section-topper-h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .food-img {
+    }
+    
+    .img-and-ingredients {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .ingredients-or-instructions-div {
+
+    }
+
+    .dish-name {
+        text-align: center;
+    }
+
+    .grid-div {
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+    }
+}
+
+/* changing the space at the top for different sizes */
+
+@media only screen and (min-width: 828px) and (max-width: 934px) {
+    .current-page-space {
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 935px) and (max-width: 1100px) {
+    .current-page-space {
+        padding-top: 160px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1240px) {
+    .current-page-space {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1241px) and (max-width: 1440px) {
+    .current-page-space {
+        padding-top: 180px;
     }
 }

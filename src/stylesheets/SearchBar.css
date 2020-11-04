@@ -7,9 +7,19 @@
     border-radius: 4px;
 }
 
+.search-bar-darker {
+    min-width: 20vw; 
+    background-color: rgb(135,130,119); 
+    border: none;
+    padding: 0.5rem; 
+    margin-right: 0.5vw;
+    border-radius: 4px;
+}
+
 .search-bar-div {
     margin-right: 2vw;
     display: flex;
+    align-items: center;
 }
 
 .x-button {
@@ -17,23 +27,94 @@
     border: none;
     border-radius: 4px;
     padding: 5px 7px;
+    cursor: pointer;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+.x-button-darker {
+    background-color: rgb(127,52,45);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 7px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.x-button:active, .x-button-darker:active {
+    background-color: rgba(235, 102, 90, 0.65);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 7px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
     .search-bar-div {
         margin-right: 1vw;
         margin-bottom: 1vw;
     }
 
     .search-bar {
-
+        height: 10px;
+        
     }
 
     .x-button {
 
     }
+    .search-bar-div {
+        margin-right: 0vw;
+    }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1024px) {
-    
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .search-bar-div {
+        margin-right: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .search-bar {
+        height: 10px;
+        
+    }
+
+    .x-button {
+
+    }
+    .search-bar-div {
+        margin-right: 0vw;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .search-bar-div {
+        margin-right: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .search-bar {
+        height: 10px;
+        
+    }
+
+    .x-button {
+
+    }
+    .search-bar-div {
+        margin-right: 0vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .search-bar-div {
+        margin-right: 5vw;
+        margin-bottom: 1vw;
+    }
+
+    .search-bar {
+        height: 10px;
+        
+    }
+
+    .x-button {
+
+    }
 }

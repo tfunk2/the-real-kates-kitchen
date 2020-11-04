@@ -38,7 +38,11 @@
     background-color: rgb(178, 190, 181);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+.active-tab-dark {
+    background-color: rgb(128, 138, 131);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
     .navbar-ul {
         width: 100%;
     }
@@ -50,7 +54,7 @@
     }
 
     .navbar-li {
-        height: 8vh;
+        height: 36px;
     }
 
     .navbar-li:hover *{
@@ -62,8 +66,74 @@
     }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1024px) {
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .navbar-ul {
+        width: 100%;
+    }
+
+    .navbar-h1 {
+        width: 100%;
+        font-size: 6.2vw;
+        margin: 0px;
+    }
+
+    .navbar-li {
+        height: 36px;
+    }
+
     .navbar-li:hover *{
-        font-size: 6vw;
+        font-size: 6.2vw;
+    }
+
+    .navbar-li:hover {
+        background-color: rgb(178, 190, 181);
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .navbar-li:hover *{
+        font-size: 22pt;
+    }
+
+    .navbar-ul {
+        width: 100%;
+    }
+
+    .navbar-h1 {
+        width: 100%;
+        font-size: 20pt;
+        margin: 0px;
+    }
+
+    .navbar-li {
+        height: 50px;
+    }
+
+    .navbar-li:hover {
+        background-color: rgb(178, 190, 181);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-li:hover *{
+        font-size: 34pt;
+    }
+
+    .navbar-ul {
+        width: 100%;
+    }
+
+    .navbar-h1 {
+        width: 100%;
+        font-size: 30pt;
+        margin: 0px;
+    }
+
+    .navbar-li {
+        height: 50px;
+    }
+
+    .navbar-li:hover {
+        background-color: rgb(178, 190, 181);
     }
 }
