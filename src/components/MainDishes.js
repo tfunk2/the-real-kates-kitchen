@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
+import Recipe from '../components/Recipe.js'
 import '../stylesheets/MainDishes.css';
 
 export default function MainDishes({ query, setClickedRecipe }) {
@@ -66,25 +67,12 @@ export default function MainDishes({ query, setClickedRecipe }) {
     }
 
     const mainDishes = mainRecipesShown.map(recipe => {
-        return <div className="recipe-div">
-            <h1 className="dish-name">{recipe.name}</h1>
-            <div className="img-and-ingredients">
-                <img className="food-img" alt={recipe.name} src={recipe.image}></img>
-                <div className="ingredients-or-instructions-div">
-                    <h2 className="section-topper-h2">Ingredients</h2>
-                    <ul>
-                        {ingredients(mainRecipesShown[mainRecipesShown.indexOf(recipe)].ingredients)}
-                    </ul>
-                </div>
-            </div>
-            <div className="ingredients-or-instructions-div">
-                <h2 className="section-topper-h2">Instructions</h2>
-                <ul>
-                    {instructions(mainRecipesShown[mainRecipesShown.indexOf(recipe)].instructions)}
-                </ul>
-            </div>
-            <button onClick={() => handleRecipeClick(recipe.name)}>Original Recipe</button>
-        </div>
+        return <Recipe recipe={recipe} 
+            ingredients={ingredients}
+            instructions={instructions}
+            mainRecipesShown={mainRecipesShown}
+            handleRecipeClick={handleRecipeClick}
+        />
     })
 
     useEffect(() => {
