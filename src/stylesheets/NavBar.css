@@ -42,6 +42,10 @@
     background-color: rgb(128, 138, 131);
 }
 
+.handwritten-img {
+    height: 96%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .navbar-ul {
         width: 100%;
@@ -63,6 +67,10 @@
 
     .navbar-li:hover {
         background-color: rgb(178, 190, 181);
+    }
+
+    .handwritten-img {
+        height: 86%;
     }
 }
 
@@ -135,5 +143,9 @@
 
     .navbar-li:hover {
         background-color: rgb(178, 190, 181);
+    }
+
+    .handwritten-img {
+        height: 100%;
     }
 }

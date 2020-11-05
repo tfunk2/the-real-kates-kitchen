@@ -69,17 +69,18 @@ button:focus {
 
 .recipe-div {
     background-color: rgba(7,124,114, 0.95);
-    width: 90%;
+    width: 86%;
     padding: 2vmin;
     margin-bottom: 1vmin;
     margin-top: 1vmin;
     justify-self: center;
-    align-self: center;
+    align-self: flex-start;
     box-shadow: -4px 4px 4px rgba(20, 20, 20, 0.445);
     border-radius: 8pt;
     color: antiquewhite;
     position: relative;
     min-height: 238px;
+    height: auto;
 }
 
 .food-img {
@@ -233,9 +234,9 @@ button:focus {
         border-radius: 8pt;
     }
 
-    /* .recipe-modal {
-
-    } */
+    .recipe-div {
+        align-self: center;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
@@ -306,9 +307,9 @@ button:focus {
         border-radius: 8pt;
     }
 
-    /* .recipe-modal {
-        
-    } */
+    .recipe-div {
+        align-self: center;
+    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -337,6 +338,7 @@ button:focus {
     .recipe-div {
         margin-top: 1vmin;
         margin-bottom: 1vmin;
+        align-self: flex-start;
     }
 
     /* hey */
@@ -391,9 +393,9 @@ button:focus {
         border-radius: 8pt;
     }
 
-    /* .recipe-modal {
-        
-    } */
+    .recipe-div {
+        align-self: center;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -423,8 +425,6 @@ button:focus {
         margin-top: 0vmin;
         margin-bottom: 1vmin;
     }
-
-    /* hey */
 
     /* .header-div {
         display: flex;
