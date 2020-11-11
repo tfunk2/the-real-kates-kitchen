@@ -432,7 +432,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             instructions: [
                 "Brown the angus eye roast in oil",
                 "Put angus roast, au jus mix, water, and onion in crockpot on high for 1-2 hours",
-                "Add baby carrots",
+                "Add baby carrots and potatoes",
                 "Cook high another hour, turn to low another 3 hours"
             ],
             image: fakeImage
@@ -440,116 +440,197 @@ export default function MainDishes({ query, setClickedRecipe }) {
         {
             name: "Parmesan Chicken Cutlets",
             ingredients: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "¼ cup parmesan, grated",
+                "2 Tbsp. dried seasoned italian bread crumbs",
+                "⅛ tsp. paprika",
+                "1 tsp. dried parsley",
+                "½ tsp. garlic powder",
+                "¼ tsp. black pepper, freshly ground",
+                "4 boneless chicken breast, about 1 lb",
             ],
             instructions: [
-                "",
+                "Preheat over to 400 degrees",
+                "In resealable bag, combine cheese, crumbs and all seasonings; shake well",
+                "Transfer mixture to plate; dip each chicken breast in cheese mixture, turning to coat all sides",
+                "Arrange on non-stick baking sheet",
+                "Bake until chicken is cooked through, 20-25 minutes"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Philly Cheese Steak Sloppy Joes",
             ingredients: [
-                "",
+                "1 lb lean ground beef",
+                "2 Tbsp. butter",
+                "1 small yellow onion, diced",
+                "1 small green bell pepper, diced",
+                "8oz brown mushrooms, minced",
+                "2 Tbsp. ketchup",
+                "1 Tbsp. Worcestershire sauce",
+                "½ tsp. Kosher salt",
+                "½ tsp. fresh ground black pepper",
+                "1 Tbsp. corn starch",
+                "1 cup beef broth",
+                "8oz Provolone cheese slices chopped (use 6oz if you don't want it very cheesy)",
+                "6 brioche hamburger buns"
             ],
             instructions: [
-                "",
+                "Add the ground beef to a large cast iron skillet (this browns very well) and brown until a deep brown crust appears before breaking the beef apart",
+                "Stir the ground beef and brown until a deep brown crust appears on about 50 or so percent of the beef",
+                "Remove the beef (you can leave the fat) and add the butter and the onions and bell peppers and mushrooms",
+                "Let brown for 1-2 minutes before stirring, then let brown for another 1-2 minutes before stirring again",
+                "Add the beef back into the pan",
+                "In a small cup mix the beef broth and cornstarch together",
+                "Add the ketchup, Worcestershire sauce, salt, black pepper, beef broth/cornstarch mixture into the pan",
+                "Cook until the mixture is only slightly liquidy (about 75% of the mixture is above liquid), 3-5 minutes",
+                "Turn off the heat, add in the provolone cheese",
+                "Served on toasted brioche buns"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Pot Roast",
             ingredients: [
-                "",
+                "Chuck roast",
+                "Hidden Valley Ranch dressing mix",
+                "McCormick Au Jus mix",
+                "Stick of butter",
+                "5 pepperoncini peppers",
             ],
             instructions: [
-                "",
+                "Put roast in crock pot",
+                "Sprinkle ranch mix",
+                "Sprinkle au jus mix",
+                "Place butter on top",
+                "Place peppers on top",
+                "Do not add water",
+                "Cook on low for about 8 hours"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Simple Slow Cooker Creamy Chicken Chili",
             ingredients: [
-                "",
+                "Chicken breasts",
+                "Packet of ranch dressing",
+                "1 can black beans",
+                "1 can Rotel",
+                "1 can corn",
+                "1 block cream cheese"
             ],
             instructions: [
-                "",
+                "Slow cooker on high for 4 hours or low for 6 hours",
+                "Serve over rice with tortillas"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Simply Lasagna",
             ingredients: [
-                "",
+                "1 lb ground beef",
+                "2½ cups shredded low-moisture part skim mozzarella - divided",
+                "1 container (15oz) Polly-O natural part skim ricotta cheese",
+                "½ cup 100% grated parmesan cheese divided",
+                "¼ cup chopped fresh parsley",
+                "1 egg lightly beaten",
+                "1 jar (26 oz) spaghetti sauce",
+                "1 cup water",
+                "12 lasagna noodles, uncooked"
             ],
             instructions: [
-                "",
+                "Preheat oven to 350 degrees",
+                "Brown meat, drain",
+                "Mix mozzarella, ricotta, parmesan, parsley and egg until well blended",
+                "Stir spaghetti sauce into drained meat, add water to jar, replace lid, and shake then add to sauce",
+                "Spread 1 cup of meat sauce onto bottom of 13x9 baking dish, top with a layer of 3 uncooked noodles",
+                "Spread ⅓  of the cheese mixture and 1 cup meat sauce over noodles; Repeat 2 more times - top with remaining 3 noodles and remaining meat sauce",
+                "Sprinkle with remaining ¼ cup mozzarella and ¼ cup parmesan",
+                "Cover tightly with greased foil, bake 45 min",
+                "Remove foil, continue baking for 15 min, or until heated through",
+                "Let stand 15 min before cutting to serve"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Slow Cooker Creamy White Chicken Chili",
             ingredients: [
-                "",
+                "1 lb boneless skinless chicken breast trimmed of excess fat",
+                "1 yellow onion diced",
+                "2 cloves garlic minced",
+                "24oz chicken broth (low sodium)",
+                "2 15oz cans great northern beans drained and rinsed",
+                "2 4oz cans diced green chiles (I do one hot, one mild)",
+                "1 15oz can whole kernel corn drained",
+                "1 tsp. salt",
+                "½ tsp. black pepper",
+                "1 tsp. cumin",
+                "¾ tsp oregano",
+                "½ tsp. chili powder",
+                "¼ tsp. cayenne pepper",
+                "Small handful fresh cilantro chopped",
+                "4oz reduced fat cream cheese softened",
+                "¼ cup half and half",
+                "(All items below are toppings)",
+                "Sliced jalapenos",
+                "Sliced avocados",
+                "Dollop of sour cream",
+                "Minced fresh cilantro",
+                "Tortilla strips",
+                "Shredded Monterey jack or Mexican Cheese"
             ],
             instructions: [
-                "",
+                "Add chicken breasts to bottom of slow cooker, top with salt, pepper, cumin, oregano, chili powder, and cayenne pepper",
+                "Top with diced onion, minced garlic, great Northern beans, green chiles, corn, chicken broth and cilantro, stir",
+                "Cover and cook on LOW for 8 hours or on HIGH for 3-4 hours",
+                "Remove chicken to large mixing bowl, shred, then return to slow cooker",
+                "Add cream cheese and half and half, stir, then cover and cook on HIGH for 15 minutes, or until chili is creamy and slightly thickened",
+                "Stir well and serve with desired toppings",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Slow Cooker Zuppa Toscana",
             ingredients: [
-                "",
+                "1 lb sausage (note says: use less sausage, more potato)",
+                "2 large russet baking potatoes, sliced in half, and then in ¼ inch slices",
+                "1 large onion, chopped",
+                "¼ cup bacon bits (optional)",
+                "2 garlic cloves, minced",
+                "2 cup kale or swiss chard, chopped",
+                "16oz can chicken broth",
+                "1 quart water",
+                "1 cup heavy whipping cream",
             ],
             instructions: [
-                "",
+                "Brown the sausage in a skillet over medium-high heat until no longer pink",
+                "Place cooked sausage, chicken broth, water, garlic, potatoes and onion in the slow cooker",
+                "Cover and crock on high for 3-4 hours until potatoes are cooked and soft",
+                "Turn the slow cooker off and add the kale",
+                "Return the lid and let set for 5 min",
+                "Stir in whipping cream and serve"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "White Chicken Enchiladas",
             ingredients: [
-                "",
+                "10 soft taco shells",
+                "2 cups cooked, shredded chicken",
+                "2 cups shredded Monterrey Jack cheese",
+                "3 Tbsp. butter",
+                "3 Tbsp. flour",
+                "2 cups chicken broth",
+                "1 cup sour cream",
+                "1 4oz can diced green chilies"
             ],
             instructions: [
-                "",
-            ],
-            image: fakeImage
-        },
-        {
-            name: "",
-            ingredients: [
-                "",
-            ],
-            instructions: [
-                "",
-            ],
-            image: fakeImage
-        },
-        {
-            name: "",
-            ingredients: [
-                "",
-            ],
-            instructions: [
-                "",
-            ],
-            image: fakeImage
-        },
-        {
-            name: "",
-            ingredients: [
-                "",
-            ],
-            instructions: [
-                "",
+                "Preheat oven to 350 degrees, grease a 9x13 pan",
+                "Mix chicken and 1 cup of cheese, roll up in tortillas and place in pan",
+                "Melt butter, stir in flour and cook 1 minute, heat over medium heat until thick and bubbly",
+                "Stir in sour cream and chilies, do NOT bring to a boil",
+                "Pour over enchiladas and top with remaining cheese",
+                "Bake 22 min, then high broil 3 min",
+                "(Note: sauce doesn't freeze well)"
             ],
             image: fakeImage
         },

@@ -21,6 +21,14 @@ import JodisAdoringBreakfastCasserole from '../images/jodi\'s-adoring-breakfast-
 import LauriesSpaghettiCasserole from '../images/laurie\'s-spaghetti-casserole.jpg'
 import LisasWhiteChili from '../images/lisa\'s-white-chili.jpg'
 import MikesRoast from '../images/mike\'s-roast.jpg'
+import ParmesanChickenCutlets from '../images/parmesan-chicken-cutlets.jpg'
+import PhillyCheeseSteakSloppyJoes from '../images/philly-cheese-steak-sloppy-joes.jpg'
+import PotRoast from '../images/pot-roast.jpg'
+import SimpleSlowCookerCreamyChickenChili from '../images/simple-slow-cooker-creamy-chicken-chili.jpg'
+import SimplyLasagna from '../images/simply-lasagna.jpg'
+import SlowCookerCreamyWhiteChickenChili from '../images/slow-cooker-creamy-white-chicken-chili.jpg'
+import SlowCookerZuppaToscana from '../images/slow-cooker-zuppa-toscana.jpg'
+import WhiteChickenEnchiladas from '../images/white-chicken-enchiladas.jpg'
 
 export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
     const whichImage = () => {
@@ -67,28 +75,22 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Lisa's White Chili recipe" className="modal-img" src={LisasWhiteChili}></img>;
             case "Mike's Roast":
                 return <img alt="Mike's Roast recipe" className="modal-img" src={MikesRoast}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={ChickenAndRice}></img>;
+            case "Parmesan Chicken Cutlets":
+                return <img alt="Parmesan Chicken Cutlets recipe" className="modal-img" src={ParmesanChickenCutlets}></img>;
+            case "Philly Cheese Steak Sloppy Joes":
+                return <img alt="Philly Cheese Steak Sloppy Joes recipe" className="modal-img" src={PhillyCheeseSteakSloppyJoes}></img>;
+            case "Pot Roast":
+                return <img alt="Pot Roast recipe" className="modal-img" src={PotRoast}></img>;
+            case "Simple Slow Cooker Creamy Chicken Chili":
+                return <img alt="Simple Slow Cooker Creamy Chicken Chili recipe" className="modal-img" src={SimpleSlowCookerCreamyChickenChili}></img>;
+            case "Simply Lasagna":
+                return <img alt="Simply Lasagna recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Slow Cooker Creamy White Chicken Chili":
+                return <img alt="Slow Cooker Creamy White Chicken Chili recipe" className="modal-img" src={SlowCookerCreamyWhiteChickenChili}></img>;
+            case "Slow Cooker Zuppa Toscana":
+                return <img alt="Slow Cooker Zuppa Toscana recipe" className="modal-img" src={SlowCookerZuppaToscana}></img>;
+            case "White Chicken Enchiladas":
+                return <img alt="White Chicken Enchiladas recipe" className="modal-img" src={WhiteChickenEnchiladas}></img>;
         }
     }
 
