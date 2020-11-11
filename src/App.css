@@ -167,6 +167,38 @@ button:focus {
     grid-template-columns: 40vw 40vw;
 }
 
+/* .ingredients-instructions-li {
+    list-style-image: url(./images/single-cherry.png);
+} */
+
+/* .ingredients-instructions-li::marker {
+    content: url(./images/single-cherry-original.png);
+} */
+
+.ingredients-ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.instructions-ul {
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+.cherry-bullet-point {
+    height: 24px;
+    margin-right: 5px;
+    align-self: center;
+}
+
+.cherry-list-item-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+    align-items: flex-end;
+    min-height: 30px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .current-page-space {
         padding-top: 150px;
@@ -238,6 +270,10 @@ button:focus {
     .recipe-div {
         align-self: center;
     }
+
+    /* .ingredients-instructions-li::marker {
+        content: url(./images/single-cherry-small.png);
+    } */
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
@@ -311,6 +347,10 @@ button:focus {
     .recipe-div {
         align-self: center;
     }
+
+    /* .ingredients-instructions-li::marker {
+        content: url(./images/single-cherry-small.png);
+    } */
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -397,6 +437,10 @@ button:focus {
     .recipe-div {
         align-self: center;
     }
+
+    /* .ingredients-instructions-li::marker {
+        content: url(./images/single-cherry-original.png);
+    } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -466,6 +510,10 @@ button:focus {
 
     /* .recipe-modal {
         
+    } */
+
+    /* .ingredients-instructions-li::marker {
+        content: url(./images/single-cherry-large.png);
     } */
 }
 

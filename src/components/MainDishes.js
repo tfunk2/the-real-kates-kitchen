@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import Recipe from '../components/Recipe.js'
+import SingleCherry from '../images/single-cherry.png'
 import '../stylesheets/MainDishes.css';
 
 export default function MainDishes({ query, setClickedRecipe }) {
@@ -640,13 +641,19 @@ export default function MainDishes({ query, setClickedRecipe }) {
 
     const ingredients = (array) => {
         return array.map(ingredient => {
-                return <li>{ingredient}</li>
+                return <div  className="cherry-list-item-div">
+                    <img src={SingleCherry} alt="cherry-bullet-point" className="cherry-bullet-point"></img>
+                    <li className="ingredients-instructions-li">{ingredient}</li>
+                </div>
         })
     }
 
     const instructions = (array) => {
         return array.map(instruction => {
-                return <li>{instruction}</li>
+                return <div className="cherry-list-item-div">
+                <img src={SingleCherry} alt="cherry-bullet-point" className="cherry-bullet-point"></img>
+                <li className="ingredients-instructions-li">{instruction}</li>
+            </div>
         })
     }
 
