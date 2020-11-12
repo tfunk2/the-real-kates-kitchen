@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import Recipe from '../components/Recipe.js'
-import '../stylesheets/MainDishes.css';
+import SingleCherry from '../images/single-cherry.png'
+// import '../stylesheets/MainDishes.css';
 
 export default function MainDishes({ query, setClickedRecipe }) {
     const recipes = [
@@ -422,7 +423,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             name: "Mike's Roast",
             ingredients: [
                 "2 lb angus eye roast",
-                "cooking oil",
+                "Cooking oil",
                 "1 package au jus mix",
                 "1½ cup water",
                 "1 onion (chunked)",
@@ -635,18 +636,24 @@ export default function MainDishes({ query, setClickedRecipe }) {
             image: fakeImage
         },
     ]
-
-    const [mainRecipesShown, setMainRecipesShown] = useState([...recipes])
+// come back to here man!
+    const [recipesShown, setRecipesShown] = useState([...recipes])
 
     const ingredients = (array) => {
         return array.map(ingredient => {
-                return <li>{ingredient}</li>
+                return <div  className="cherry-list-item-div">
+                    <img src={SingleCherry} alt="cherry-bullet-point" className="cherry-bullet-point"></img>
+                    <li className="ingredients-instructions-li">{ingredient}</li>
+                </div>
         })
     }
 
     const instructions = (array) => {
         return array.map(instruction => {
-                return <li>{instruction}</li>
+                return <div className="cherry-list-item-div">
+                <img src={SingleCherry} alt="cherry-bullet-point" className="cherry-bullet-point"></img>
+                <li className="ingredients-instructions-li">{instruction}</li>
+            </div>
         })
     }
 
@@ -654,22 +661,22 @@ export default function MainDishes({ query, setClickedRecipe }) {
         setClickedRecipe(name)
     }
 
-    let mainDishesRegex = new RegExp(query, "i")
+    let dishesRegex = new RegExp(query, "i")
 
     const filterDishes = () => {    
         if(query.length > 0) {
-            let newDishes = [...recipes].filter(dish => mainDishesRegex.test(dish.name))
-            setMainRecipesShown(newDishes)
+            let newDishes = [...recipes].filter(dish => dishesRegex.test(dish.name))
+            setRecipesShown(newDishes)
         } else if (query.length === 0) {
-            setMainRecipesShown([...recipes])
+            setRecipesShown([...recipes])
         }
     }
 
-    const mainDishes = mainRecipesShown.map(recipe => {
+    const dishes = recipesShown.map(recipe => {
         return <Recipe recipe={recipe} 
             ingredients={ingredients}
             instructions={instructions}
-            mainRecipesShown={mainRecipesShown}
+            recipesShown={recipesShown}
             handleRecipeClick={handleRecipeClick}
         />
     })
@@ -679,9 +686,9 @@ export default function MainDishes({ query, setClickedRecipe }) {
     }, [query])
 
     return(
-        <div className="main-dishes-div">
+        <div className="dishes-div">
             <div className="grid-div">
-                {mainRecipesShown.length > 0 ? mainDishes : <h1>Sorry, no results matching "{query}"</h1>}
+                {recipesShown.length > 0 ? dishes : <h1>Sorry, no results matching "{query}"</h1>}
             </div>
         </div>
     )
