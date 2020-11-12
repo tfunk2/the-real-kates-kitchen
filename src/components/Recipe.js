@@ -3,7 +3,7 @@ import UpArrow from '../images/up-arrow.png'
 import DownArrow from '../images/down-arrow.png'
 
 
-export default function Recipe({ recipe, ingredients, instructions, mainRecipesShown, handleRecipeClick }) {
+export default function Recipe({ recipe, ingredients, instructions, recipesShown, handleRecipeClick }) {
     const [isRecipeExpanded, setIsRecipeExpanded] = useState(false)
 
     const handleExpansion = () => {
@@ -22,14 +22,14 @@ export default function Recipe({ recipe, ingredients, instructions, mainRecipesS
                         <div className="ingredients-or-instructions-div">
                             <h2 className="section-topper-h2">Ingredients</h2>
                             <ul className="ingredients-ul">
-                                {ingredients(mainRecipesShown[mainRecipesShown.indexOf(recipe)].ingredients)}
+                                {ingredients(recipesShown[recipesShown.indexOf(recipe)].ingredients)}
                             </ul>
                         </div>
                     </div>
                     <div className="ingredients-or-instructions-div">
                         <h2 className="section-topper-h2">Instructions</h2>
                         <ul className="instructions-ul">
-                            {instructions(mainRecipesShown[mainRecipesShown.indexOf(recipe)].instructions)}
+                            {instructions(recipesShown[recipesShown.indexOf(recipe)].instructions)}
                         </ul>
                     </div>
                     <button onClick={() => handleRecipeClick(recipe.name)}>Original Recipe</button>

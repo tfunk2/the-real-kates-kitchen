@@ -188,15 +188,23 @@ button:focus {
 .cherry-bullet-point {
     height: 24px;
     margin-right: 5px;
-    align-self: center;
+    align-self: flex-start;
+    margin-top: 2.5px;
 }
 
 .cherry-list-item-div {
     display: flex;
     flex-direction: row;
     margin-bottom: 3px;
-    align-items: flex-end;
-    min-height: 30px;
+    align-items: center;
+    min-height: 40px;
+}
+
+.dishes-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
