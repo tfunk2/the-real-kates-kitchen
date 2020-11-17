@@ -31,7 +31,29 @@ import SlowCookerCreamyWhiteChickenChili from '../images/main-recipes/slow-cooke
 import SlowCookerZuppaToscana from '../images/main-recipes/slow-cooker-zuppa-toscana.jpg'
 import WhiteChickenEnchiladas from '../images/main-recipes/white-chicken-enchiladas.jpg'
 // Side Recipes
-import WhiteChickenEnchiladas from '../images/side-recipes/white-chicken-enchiladas.jpg'
+import BroccoliCheeseRice from '../images/side-recipes/broccoli-cheese-rice.jpg'
+import CharlottesWildfireChiliCheeseDip from '../images/side-recipes/charlotte\'s-wildfire-chili-cheese-dip.jpg'
+import CheddarAndRoastedGarlicBiscuits from '../images/side-recipes/cheddar-and-roasted-garlic-biscuits.jpg'
+import GeneralRoastingTimesForVegetables from '../images/side-recipes/general-roasting-times-for-vegetables.jpg'
+import Guacamole from '../images/side-recipes/guacamole.jpg'
+import JoysCornDip from '../images/side-recipes/joy\'s-corn-dip.jpg'
+import KahluaDip from '../images/side-recipes/kahlua-dip.jpg'
+import NoBakeEnergyBites from '../images/side-recipes/no-bake-energy-bites.jpg'
+import ParmesanCrustedAsparagus from '../images/side-recipes/parmesan-crusted-asparagus.jpg'
+import PicnicPotatoes from '../images/side-recipes/picnic-potatoes.jpg'
+import PretzelCrack from '../images/side-recipes/pretzel-crack.jpg'
+import PumpkinPieChexMix from '../images/side-recipes/pumpkin-pie-chex-mix-amy-o\'guin\'s.jpg'
+import RachelsHummus from '../images/side-recipes/rachel\'s-hummus.jpg'
+import RoastedBrusselsSprouts from '../images/side-recipes/roasted-brussels-sprouts.jpg'
+import RoastedCornOnTheCob from '../images/side-recipes/roasted-corn-on-the-cob.jpg'
+import SaltedCaramelPopcorn from '../images/side-recipes/salted-caramel-popcorn.jpg'
+import SmotheredGreenBeans from '../images/side-recipes/smothered-green-beans.jpg'
+import SnackCrackerMix from '../images/side-recipes/snack-cracker-mix.jpg'
+import SnackCrackers from '../images/side-recipes/snack-crackers.jpg'
+import SugarCoatedPecans from '../images/side-recipes/sugar-coated-pecans.jpg'
+import TheBestRoastedVegetablesEver from '../images/side-recipes/the-best-roasted-vegetables-ever.jpg'
+import TinasOrientalColeSlaw from '../images/side-recipes/tina\'s-oriental-cole-slaw.jpg'
+import WhitePartyMix from '../images/side-recipes/white-party-mix.jpg'
 // Dessert Recipes
 
 export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
@@ -95,6 +117,68 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Slow Cooker Zuppa Toscana recipe" className="modal-img" src={SlowCookerZuppaToscana}></img>;
             case "White Chicken Enchiladas":
                 return <img alt="White Chicken Enchiladas recipe" className="modal-img" src={WhiteChickenEnchiladas}></img>;
+            case "Broccoli Cheese Rice":
+                return <img alt="Broccoli Cheese Rice recipe" className="modal-img" src={BroccoliCheeseRice}></img>;
+            case "Charlotte's Wildfire Chili Cheese Dip":
+                return <img alt="Charlotte's Wildfire Chili Cheese Dip recipe" className="modal-img" src={CharlottesWildfireChiliCheeseDip}></img>;
+            case "Cheddar and Roasted Garlic Biscuits":
+                return <img alt="Cheddar and Roasted Garlic Biscuits recipe" className="modal-img" src={CheddarAndRoastedGarlicBiscuits}></img>;
+            case "General Roasting Times for Vegetables":
+                return <img alt="General Roasting Times for Vegetables recipe" className="modal-img" src={GeneralRoastingTimesForVegetables}></img>;
+            case "Guacamole":
+                return <img alt="Guacamole recipe" className="modal-img" src={Guacamole}></img>;
+            case "Joy's Corn Dip":
+                return <img alt="Joy's Corn Dip recipe" className="modal-img" src={JoysCornDip}></img>;
+            case "Kahlua Dip":
+                return <img alt="Kahlua Dip recipe" className="modal-img" src={KahluaDip}></img>;
+            case "No Bake Energy Bites":
+                return <img alt="No Bake Energy Bites recipe" className="modal-img" src={NoBakeEnergyBites}></img>;
+            case "Parmesan Crusted Asparagus":
+                return <img alt="Parmesan Crusted Asparagus recipe" className="modal-img" src={ParmesanCrustedAsparagus}></img>;
+            case "Laura's Picnic Potatoes":
+                return <img alt="Picnic Potatoes recipe" className="modal-img" src={PicnicPotatoes}></img>;
+            case "Pretzel Crack":
+                return <img alt="Pretzel Crack recipe" className="modal-img" src={PretzelCrack}></img>;
+            case "Pumpkin Pie Chex Mix (Amy O'Guin's)":
+                return <img alt="Pumpkin Pie Chex Mix (Amy O'Guin's) recipe" className="modal-img" src={PumpkinPieChexMix}></img>;
+            case "Rachel's Hummus":
+                return <img alt="Rachel's Hummus recipe" className="modal-img" src={RachelsHummus}></img>;
+            case "Roasted Brussels Sprouts":
+                return <img alt="Roasted Brussels Sprouts recipe" className="modal-img" src={RoastedBrusselsSprouts}></img>;
+            case "Roasted Corn on the Cob":
+                return <img alt="Roasted Corn on the Cob recipe" className="modal-img" src={RoastedCornOnTheCob}></img>;
+            case "Salted Caramel Popcorn":
+                return <img alt="Salted Caramel Popcorn recipe" className="modal-img" src={SaltedCaramelPopcorn}></img>;
+            case "Smothered Green Beans":
+                return <img alt="Smothered Green Beans recipe" className="modal-img" src={SmotheredGreenBeans}></img>;
+            case "Snack Cracker Mix":
+                return <img alt="Snack Cracker Mix recipe" className="modal-img" src={SnackCrackerMix}></img>;
+            case "Snack Crackers":
+                return <img alt="Snack Crackers recipe" className="modal-img" src={SnackCrackers}></img>;
+            case "Sugar Coated Pecans":
+                return <img alt="Sugar Coated Pecans recipe" className="modal-img" src={SugarCoatedPecans}></img>;
+            case "The Best Roasted Vegetables Ever":
+                return <img alt="The Best Roasted Vegetables Ever recipe" className="modal-img" src={TheBestRoastedVegetablesEver}></img>;
+            case "Tina's Oriental Cole Slaw":
+                return <img alt="Tina's Oriental Cole Slaw recipe" className="modal-img" src={TinasOrientalColeSlaw}></img>;
+            case "White Party Mix":
+                return <img alt="White Party Mix recipe" className="modal-img" src={WhitePartyMix}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
         }
     }
 
