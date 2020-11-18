@@ -64,14 +64,14 @@ import ButtercreamFrosting from '../images/dessert-recipes/buttercream-frosting.
 import CaramelCornPuffTreats from '../images/dessert-recipes/caramel-corn-puff-treats.jpg'
 import CherryCoffeeCake from '../images/dessert-recipes/cherry-coffee-cake.jpg'
 import ChocolateChipCookies from '../images/dessert-recipes/chocolate-chip-cookies.jpg'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import ChocolateMaltedCookies from '../images/dessert-recipes/chocolate-malted-cookies.png'
+import ChocolateSheetCake from '../images/dessert-recipes/chocolate-sheet-cake.jpg'
+import CoconutPecanCake from '../images/dessert-recipes/coconut-pecan-cake.jpg'
+import CrispSugarCookies from '../images/dessert-recipes/crisp-sugar-cookies.jpg'
+import CrunchyNutCookies from '../images/dessert-recipes/crunchy-nut-cookies.png'
+import FluffyPumpkinDip from '../images/dessert-recipes/fluffy-pumpkin-dip.jpg'
+import FrostedBananaBars from '../images/dessert-recipes/frosted-banana-bars.jpg'
+import FruitCake from '../images/dessert-recipes/fruit-cake.jpg'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
@@ -232,24 +232,22 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Cherry Coffee Cake recipe" className="modal-img" src={CherryCoffeeCake}></img>;
             case "Chocolate Chip Cookies":
                 return <img alt="Chocolate Chip Cookies recipe" className="modal-img" src={ChocolateChipCookies}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Chocolate Malted Cookies":
+                return <img alt="Chocolate Malted Cookies recipe" className="modal-img" src={ChocolateMaltedCookies}></img>;
+            case "Chocolate Sheet Cake":
+                return <img alt="Chocolate Sheet Cake recipe" className="modal-img" src={ChocolateSheetCake}></img>;
+            case "Coconut Pecan Cake":
+                return <img alt="Coconut Pecan Cake recipe" className="modal-img" src={CoconutPecanCake}></img>;
+            case "Crisp Sugar Cookies":
+                return <img alt="Crisp Sugar Cookies recipe" className="modal-img" src={CrispSugarCookies}></img>;
+            case "Crunchy Nut Cookies":
+                return <img alt="Crunchy Nut Cookies recipe" className="modal-img" src={CrunchyNutCookies}></img>;
+            case "Fluffy Pumpkin Dip":
+                return <img alt="Fluffy Pumpkin Dip recipe" className="modal-img" src={FluffyPumpkinDip}></img>;
+            case "Frosted Banana Bars":
+                return <img alt="Frosted Banana Bars recipe" className="modal-img" src={FrostedBananaBars}></img>;
+            case "Fruit Cake":
+                return <img alt="Fruit Cake recipe" className="modal-img" src={FruitCake}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
@@ -260,6 +258,8 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "Gram's Apple Pie Filling":
                 return <img alt="Gram's Apple Pie Filling recipe" className="modal-img" src={GramsApplePieFilling}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":

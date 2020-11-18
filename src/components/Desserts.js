@@ -187,90 +187,163 @@ export default function Desserts({ query, setClickedRecipe}) {
         {
             name: "Chocolate Malted Cookies",
             ingredients: [
-                "",
+                "(First Group)",
+                "1 cup butter flavor Crisco",
+                "1¼ cup packed brown sugar",
+                "½ cup malted milk powder",
+                "2 Tbsp. chocolate syrup",
+                "1 Tbsp. vanilla",
+                "(Second Group)",
+                "2 cups flour",
+                "1 tsp. baking soda",
+                "½ tsp. salt",
+                "(Other Items)",
+                "1 egg",
+                "1½ cup semi-sweet chocolate chunks",
+                "1 cup milk chocolate chips",
             ],
             instructions: [
-                "",
+                "Combine first group and beat 2 minutes.",
+                "Add egg",
+                "Combine second group and add to creamed mixture gradually, mixing well after each addition.",
+                "Stir in chocolate chips and chunks.",
+                "Shape into 2 inch balls, place 3 inches apart on ungreased baking sheet.",
+                "Bake at 375° for 12-14 minutes",
+                "Cool 2 minutes before removing, makes about 1½ dozen",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Chocolate Sheet Cake",
             ingredients: [
-                "",
+                "2 cups sugar",
+                "2 cups flour",
+                "1 stick oleo (margarine)",
+                "4 Tbsp. cocoa",
+                "1 cup water",
+                "½ cup oil",
+                "2 eggs, slightly beaten",
+                "1 tsp. vanilla",
+                "1 tsp. baking soda",
+                "1 tsp. butter flavoring",
+                "½ tsp. burned sugar flavoring",
             ],
             instructions: [
-                "",
+                "Melt the oleo (margarine), cocoa, water, and oil to a boil",
+                "Pour over flour and sugar mixture - Add ½ cup buttermilk (or milk with tea and vinegar)",
+                "Add eggs, vanilla, baking soda, butter flavoring and burned sugar flavoring",
+                "Bake 350° on a thin greased pan for 30 minutes",
+                "(Icing - Melt these: 1 stick butter, 4 Tbsp. cocoa, 6 Tbsp. milk. Then beat in 1 lb powdered sugar)",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Coconut Pecan Cake",
             ingredients: [
-                "",
+                "1 box yellow cake mix",
+                "4 eggs",
+                "¾ cup oil",
+                "1 cup water"
             ],
             instructions: [
-                "",
+                "Mix and add 1 can creamy deluxe coconut pecan frosting in can",
+                "Bake 60 minutes at 350°"
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Crisp Sugar Cookies",
             ingredients: [
-                "",
+                "(Group 1)",
+                "1½ cup sugar",
+                "1 cup shortening (½ oleo)",
+                "2 eggs",
+                "(Group 2)",
+                "3 Tbsp. sweet or sour cream",
+                "1 tsp. vanilla",
+                "½ tsp. lemon extract",
+                "(Group 3)",
+                "3 cups sifted all purpose flour",
+                "½ tsp. baking soda",
+                "½ tsp. salt",
             ],
             instructions: [
-                "",
+                "No instructions about groupings, but I'm assuming these are the things you mix together in groups before mixing together as a whole",
+                "Bake at 400 degrees for 6-9 minutes",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Crunchy Nut Cookies",
             ingredients: [
-                "",
+                "1 cup white sugar",
+                "1 cup brown sugar",
+                "½ cup soft shortening",
+                "2 eggs",
+                "1 tsp. vanilla",
+                "2 cups flour",
+                "1 tsp. baking soda",
+                "½ tsp. salt",
+                "1 cup chopped nuts",
             ],
             instructions: [
-                "",
+                "Mix together sugar, brown sugar, shortening, eggs, and vanila",
+                "Sift together flour, baking soda and salt, then add to the above mixture",
+                "When well mixed add chopped nuts, mix well",
+                "Shape into ¾ inch balls and place on greased cookie sheet. Flatten the balls with the bottom of a water glass which has been greased and dipped in sugar. Bake in oven at 375 degrees F for 8 to 10 minutes. Makes approximately 4 dozen",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Fluffy Pumpkin Dip",
             ingredients: [
-                "",
+                "1 big box of instant vanilla pudding",
+                "1 carton of Cool Whip",
+                "1 can of pumpkin",
+                "1 tsp. pumpkin pie spice",
             ],
             instructions: [
-                "",
+                "No instructions provided",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Frosted Banana Bars",
             ingredients: [
-                "",
+                "½ cup butter or margarine",
+                "2 cups sugar",
+                "3 eggs",
+                "1½ cups mashed ripe bananas",
+                "1 tsp. vanilla",
+                "2 cups all-purpose flour",
+                "1 tsp. baking soda",
+                "Pinch of salt",
+                "(Frosting: ½ cup butter or margarine, 1 package 8 oz cream cheese, 4 cups powdered sugar, 2 tsp. vanilla)",
             ],
             instructions: [
-                "",
+                "Cream butter and sugar",
+                "Bat in eggs, bananas and vanilla",
+                "Combine flour, baking soda and salt, add to creamed mixture and mix well",
+                "Pour into a greased 15x10x1 inch baking pan",
+                "Bake at 350° for 25 minutes, then cool and frost",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Fruit Cake",
             ingredients: [
-                "",
+                "1 large can cherry pie filling",
+                "1 large can crushed pineapple (mostly drained)",
+                "1 yellow cake mix",
+                "1 stick of margarine",
+                "pecan pieces",
             ],
             instructions: [
-                "",
-            ],
-            image: fakeImage
-        },
-        {
-            name: "",
-            ingredients: [
-                "",
-            ],
-            instructions: [
-                "",
+                "Mix cherry pie filling and crushed pineapple in a 9x13 pan (spray with Pam)",
+                "Sprinkle yellow cake mix over top of fruit",
+                "Melt and pour margarine over cake mix",
+                "Sprinkle pecan pieces over top",
+                "Bake at 325° 45-60 minutes",
             ],
             image: fakeImage
         },
@@ -339,6 +412,16 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Sprinkle mixture over apple slices in unbaked pie shell",
                 "Dot butter on top",
                 "Bake at 425° for about 25 minutes",
+            ],
+            image: fakeImage
+        },
+        {
+            name: "",
+            ingredients: [
+                "",
+            ],
+            instructions: [
+                "",
             ],
             image: fakeImage
         },

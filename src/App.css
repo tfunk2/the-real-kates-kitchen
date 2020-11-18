@@ -86,6 +86,7 @@ button:focus {
 .food-img {
     height: 200px;
     border-radius: 8pt;
+    margin-top: 10px;
 }
 
 .unexpanded-img {
@@ -477,6 +478,13 @@ button:focus {
     .recipe-div {
         margin-top: 0vmin;
         margin-bottom: 1vmin;
+        min-height: 280px;
+    }
+
+    .unexpanded-img {
+        position: absolute;
+        bottom: 12.5px;
+        
     }
 
     /* .header-div {
