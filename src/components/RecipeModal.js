@@ -56,6 +56,59 @@ import TinasOrientalColeSlaw from '../images/side-recipes/tina\'s-oriental-cole-
 import WhitePartyMix from '../images/side-recipes/white-party-mix.jpg'
 // Dessert Recipes
 
+import AmishFriendshipBread from '../images/dessert-recipes/amish-friendship-bread.jpg'
+import AwardWinningGingerbreadCookies from '../images/dessert-recipes/award-winning-gingerbread-cookies.jpg'
+import BananaOrangeSoftees from '../images/dessert-recipes/banana-orange-softees.jpg'
+import BananaSquares from '../images/dessert-recipes/banana-squares.png'
+import ButtercreamFrosting from '../images/dessert-recipes/buttercream-frosting.jpg'
+import CaramelCornPuffTreats from '../images/dessert-recipes/caramel-corn-puff-treats.jpg'
+import CherryCoffeeCake from '../images/dessert-recipes/cherry-coffee-cake.jpg'
+import ChocolateChipCookies from '../images/dessert-recipes/chocolate-chip-cookies.jpg'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+import GramsApplePieFilling from '../images/dessert-recipes/gram\'s-apple-pie-filling.jpg'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+// import  from '../images/dessert-recipes/'
+
+
 export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
     const whichImage = () => {
         switch(clickedRecipe) {
@@ -163,6 +216,92 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Tina's Oriental Cole Slaw recipe" className="modal-img" src={TinasOrientalColeSlaw}></img>;
             case "White Party Mix":
                 return <img alt="White Party Mix recipe" className="modal-img" src={WhitePartyMix}></img>;
+            case "Amish Friendship Bread":
+                return <img alt="Amish Friendship Bread recipe" className="modal-img" src={AmishFriendshipBread}></img>;
+            case "Award Winning Gingerbread Cookies":
+                return <img alt="Award Winning Gingerbread Cookies recipe" className="modal-img" src={AwardWinningGingerbreadCookies}></img>;
+            case "Banana Orange Softees":
+                return <img alt="Banana Orange Softees recipe" className="modal-img" src={BananaOrangeSoftees}></img>;
+            case "Banana Squares":
+                return <img alt="Banana Squares recipe" className="modal-img" src={BananaSquares}></img>;
+            case "Buttercream Frosting":
+                return <img alt="Buttercream Frosting recipe" className="modal-img" src={ButtercreamFrosting}></img>;
+            case "Caramel Corn Puff Treats":
+                return <img alt="Caramel Corn Puff Treats recipe" className="modal-img" src={CaramelCornPuffTreats}></img>;
+            case "Cherry Coffee Cake":
+                return <img alt="Cherry Coffee Cake recipe" className="modal-img" src={CherryCoffeeCake}></img>;
+            case "Chocolate Chip Cookies":
+                return <img alt="Chocolate Chip Cookies recipe" className="modal-img" src={ChocolateChipCookies}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Gram's Apple Pie Filling":
+                return <img alt="Gram's Apple Pie Filling recipe" className="modal-img" src={GramsApplePieFilling}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "":
+                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
