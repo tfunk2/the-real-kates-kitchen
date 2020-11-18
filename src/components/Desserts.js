@@ -185,7 +185,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Chocolate Malted Cookies",
             ingredients: [
                 "",
             ],

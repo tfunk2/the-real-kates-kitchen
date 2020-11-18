@@ -6,6 +6,25 @@ const SearchBar = ({ query, setQuery, activePage, clickedRecipe }) => {
         setQuery("")
     }
 
+    const handleKeyPress = (e) => {
+        // This prevents the regex from crashing the app
+        if(e.key === "\\" || 
+            e.key === "*" ||
+            e.key === "+" ||
+            e.key === "$" ||
+            e.key === "^" ||
+            e.key === "(" ||
+            e.key === ")" ||
+            e.key === "[" ||
+            e.key === "]" ||
+            e.key === "|" ||
+            e.key === "." ||
+            e.key === "?"
+        ) {
+            e.preventDefault()
+        }
+    }
+
     return (
         <div className="search-bar-div">
             <input 
@@ -19,6 +38,7 @@ const SearchBar = ({ query, setQuery, activePage, clickedRecipe }) => {
                     activePage === "dessert" ? "Search Desserts" : 
                     "Search Kate's Kitchen"
                 }
+                onKeyPress={handleKeyPress}
                 onChange={(e) => setQuery(e.target.value)}
             />
             <button onClick={handleXClick}
