@@ -55,7 +55,6 @@ import TheBestRoastedVegetablesEver from '../images/side-recipes/the-best-roaste
 import TinasOrientalColeSlaw from '../images/side-recipes/tina\'s-oriental-cole-slaw.jpg'
 import WhitePartyMix from '../images/side-recipes/white-party-mix.jpg'
 // Dessert Recipes
-
 import AmishFriendshipBread from '../images/dessert-recipes/amish-friendship-bread.jpg'
 import AwardWinningGingerbreadCookies from '../images/dessert-recipes/award-winning-gingerbread-cookies.jpg'
 import BananaOrangeSoftees from '../images/dessert-recipes/banana-orange-softees.jpg'
@@ -72,15 +71,15 @@ import CrunchyNutCookies from '../images/dessert-recipes/crunchy-nut-cookies.png
 import FluffyPumpkinDip from '../images/dessert-recipes/fluffy-pumpkin-dip.jpg'
 import FrostedBananaBars from '../images/dessert-recipes/frosted-banana-bars.jpg'
 import FruitCake from '../images/dessert-recipes/fruit-cake.jpg'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import FruitPizza from '../images/dessert-recipes/fruit-pizza.png'
+import GingerCookies from '../images/dessert-recipes/ginger-cookies.jpg'
+import GooeyButterCake from '../images/dessert-recipes/gooey-butter-cake.jpg'
+import GooeyButterCookies from '../images/dessert-recipes/gooey-butter-cookies.jpg'
 import GramsApplePieFilling from '../images/dessert-recipes/gram\'s-apple-pie-filling.jpg'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import CrunchyCrispyCookies from '../images/dessert-recipes/crunchy-crispy-cookies.jpg'
+import GramsApplesauceCookies from '../images/dessert-recipes/gram\'s-applesauce-cookies.jpg'
+import GramsCherryPie from '../images/dessert-recipes/gram\'s-cherry-pie.jpg'
+import GramsVanillaFudge from '../images/dessert-recipes/gram\'s-vanilla-fudge.png'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
@@ -240,6 +239,8 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Coconut Pecan Cake recipe" className="modal-img" src={CoconutPecanCake}></img>;
             case "Crisp Sugar Cookies":
                 return <img alt="Crisp Sugar Cookies recipe" className="modal-img" src={CrispSugarCookies}></img>;
+            case "Crunchy Crispy Cookies":
+                return <img alt="Crunchy Crispy Cookies recipe" className="modal-img" src={CrunchyCrispyCookies}></img>;
             case "Crunchy Nut Cookies":
                 return <img alt="Crunchy Nut Cookies recipe" className="modal-img" src={CrunchyNutCookies}></img>;
             case "Fluffy Pumpkin Dip":
@@ -248,24 +249,22 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Frosted Banana Bars recipe" className="modal-img" src={FrostedBananaBars}></img>;
             case "Fruit Cake":
                 return <img alt="Fruit Cake recipe" className="modal-img" src={FruitCake}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Fruit Pizza":
+                return <img alt="Fruit Pizza recipe" className="modal-img" src={FruitPizza}></img>;
+            case "Ginger Cookies":
+                return <img alt="Ginger Cookies recipe" className="modal-img" src={GingerCookies}></img>;
+            case "Gooey Butter Cake":
+                return <img alt="Gooey Butter Cake recipe" className="modal-img" src={GooeyButterCake}></img>;
+            case "Gooey Butter Cookies":
+                return <img alt="Gooey Butter Cookies recipe" className="modal-img" src={GooeyButterCookies}></img>;
             case "Gram's Apple Pie Filling":
                 return <img alt="Gram's Apple Pie Filling recipe" className="modal-img" src={GramsApplePieFilling}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Gram's Applesauce Cookies":
+                return <img alt="Gram's Applesauce Cookies recipe" className="modal-img" src={GramsApplesauceCookies}></img>;
+            case "Gram's Cherry Pie":
+                return <img alt="Gram's Cherry Pie recipe" className="modal-img" src={GramsCherryPie}></img>;
+            case "Gram's Vanilla Fudge":
+                return <img alt="Gram's Vanilla Fudge recipe" className="modal-img" src={GramsVanillaFudge}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":

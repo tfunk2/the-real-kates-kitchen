@@ -274,6 +274,31 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
+            name: "Crunchy Crispy Cookies",
+            ingredients: [
+                "1 cup white sugar",
+                "1 cup brown sugar",
+                "1 cup oil",
+                "1 cup margarine or Crisco",
+                "1 egg",
+                "1 Tbsp. sour milk",
+                "3½ cups flour",
+                "1 tsp. salt",
+                "1 tsp. soda",
+                "1 tsp cream of tartar",
+                "1 tsp. vanilla",
+                "½ cup coconut",
+                "1 cup corn flakes",
+                "1 cup chopped nuts",
+            ],
+            instructions: [
+                "Cream together white sugar, brown sugar, oil, margarine or Crisco, egg and sour milk",
+                "Mix in flour, soda, cream of tartar, vanilla, coconut, corn flakes, chopped nuts",
+                "Bake at 350° 10-12 minutes",
+            ],
+            image: fakeImage
+        },
+        {
             name: "Crunchy Nut Cookies",
             ingredients: [
                 "1 cup white sugar",
@@ -348,52 +373,82 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Fruit Pizza",
             ingredients: [
-                "",
+                "1 package Pillsbury sugar cookie dough (room temperature)",
+                "1 package flavored cream cheese (pineapple or strawberry)",
+                "fruit of your choice, sliced (kiwis, bananas, strawberries, mandarin oranges, blueberries)",
+                "⅔ cup white juice",
+                "3 tsp. corn starch"
             ],
             instructions: [
-                "",
+                "Press cookie dough onto greased pizza pan and bake.",
+                "Cool",
+                "Spread cream cheese over cookie dough",
+                "Arrange sliced fruit on top of cream cheese",
+                "Combine white grape juice and corn starch in sauce and boil until thickened. ",
+                "Cool a bit, then drizzle on top of fruit",
+                "This will keep fruit in place and keep it from turning brown",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Ginger Cookies",
             ingredients: [
-                "",
+                "1 cup sugar",
+                "¾ cup shortening",
+                "1 egg",
+                "¼ cup molasses",
+                "2 cup flour",
+                "2 tsp. baking soda",
+                "1 tsp. ginger",
+                "1 tsp. cinnamon",
+                "1 tsp. salt",
             ],
             instructions: [
-                "",
+                "Cream sugar and shortening",
+                "Beat egg and molasses then add and beat",
+                "Beat remaining ingredients into mixture",
+                "Chill one hour, roll into balls and into sugar",
+                "Bake 350° approximately 10 minutes, but watch",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Gooey Butter Cake",
             ingredients: [
-                "",
+                "1 yellow cake mix",
+                "½ cup butter, melted",
+                "2 eggs",
+                "8 oz cream cheese",
+                "1 box (16 oz) powdered sugar",
+                "2 eggs, beaten",
             ],
             instructions: [
-                "",
+                "Mix yellow cake mix, melted butter, and 2 eggs together, then put into 9x13 baking dish",
+                "Mix together cream cheese, box of powdered sugar, and the 2 beaten eggs, then spread over bottom layer in dish",
+                "Sprinkle with powdered sugar",
+                "Bake until golden brown at 325° for 45 minutes",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Gooey Butter Cookies",
             ingredients: [
-                "",
+                "1 stick butter",
+                "8 oz block cream cheese",
+                "1 box yellow cake mix",
+                "1 egg",
+                "¼ tsp. vanilla",
+                "powdered sugar",
             ],
             instructions: [
-                "",
-            ],
-            image: fakeImage
-        },
-        {
-            name: "",
-            ingredients: [
-                "",
-            ],
-            instructions: [
-                "",
+                "Cream together butter and cream cheese",
+                "Add egg and vanilla",
+                "Mix in cake",
+                "Dough will be thick",
+                "Roll into 1 inch balls, roll in powdered sugar",
+                "Bake 10 minutes at 350",
             ],
             image: fakeImage
         },
@@ -416,32 +471,64 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Gram's Applesauce Cookies",
             ingredients: [
-                "",
+                "½ cup shortening",
+                "1 cup sugar",
+                "1½ cups unsweetened applesauce",
+                "2 tsp. soda",
+                "2¼ cups flour",
+                "1 tsp. cinnamon",
+                "½ tsp. cloves",
+                "½ tsp. salt",
+                "1 cup raisins",
+                "½ cup nuts",
             ],
             instructions: [
-                "",
+                "No instructions provided",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Gram's Cherry Pie",
             ingredients: [
-                "",
+                "(Pie Crust)",
+                "2 cups flour",
+                "1 tsp. salt",
+                "1 cup Crisco",
+                "2-3 Tbsp. milk",
+                "(Remaining Ingredients)",
+                "2 cups cherries",
+                "1 cup sugar",
+                "2 Tbsp. corn starch",
+                "1 Tbsp. flour",
+                "Little butter",
+                "Almond flavoring",
             ],
             instructions: [
-                "",
+                "No instructions provided",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Gram's Vanilla Fudge",
             ingredients: [
-                "",
+                "(1st Group)",
+                "2 cups sugar",
+                "1 Tbsp. white karo syrup",
+                "½ cup milk",
+                "½ cup evaporated milk",
+                "Dash of salt",
+                "(2nd Group)",
+                "½ tsp. vanilla",
+                "1 Tbsp. butter",
             ],
             instructions: [
-                "",
+                "Heat 1st group on ingredients together slowly to dissolve sugar",
+                "Then continue heating to 238° F on candy thermometer",
+                "Remove from heat, cool too 115° (or when forms a firm, soft ball in cold water)",
+                "Add 2nd group of ingredients then beat until it begins to set (don't let it set too much while beating)",
+                "Spread on a buttered plate",
             ],
             image: fakeImage
         },
