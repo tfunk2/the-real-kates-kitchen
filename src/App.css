@@ -164,7 +164,7 @@ button:focus {
 
 .grid-div {
     display: grid;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 48vw 48vw;
 }
 
 /* .ingredients-instructions-li {
@@ -282,6 +282,10 @@ button:focus {
     /* .ingredients-instructions-li::marker {
         content: url(./images/single-cherry-small.png);
     } */
+
+    .ingredients-ul {
+        padding-left: 3px;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
@@ -359,6 +363,10 @@ button:focus {
     /* .ingredients-instructions-li::marker {
         content: url(./images/single-cherry-small.png);
     } */
+
+    .ingredients-ul {
+        padding-left: 3px;
+    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -449,6 +457,10 @@ button:focus {
     /* .ingredients-instructions-li::marker {
         content: url(./images/single-cherry-original.png);
     } */
+
+    .ingredients-ul {
+        padding-left: 3px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
