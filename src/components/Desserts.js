@@ -533,22 +533,46 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Jonene's Kona Bread",
             ingredients: [
-                "",
+                "½ cup butter or Crisco",
+                "1 cup sugar",
+                "2 eggs",
+                "¾ cup mashed bananas",
+                "1¼ cup flour",
+                "¾ tsp. soda",
+                "½ tsp. salt",
             ],
             instructions: [
-                "",
+                "Preheat to 350°",
+                "Cream butter and sugar, add eggs, then banana, then flour, soda, salt",
+                "Pour in greased 9x9 pan",
+                "Bake 30 minutes",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Joy's German Chocolate Upside Down Cake",
             ingredients: [
-                "",
+                "1 cup flaked sweetened coconut",
+                "1 cup chopped pecans",
+                "1 package (18.25 oz) german chocolate cake mix",
+                "Eggs, water and oil as directed on package",
+                "8 oz cream cheese, room temperature",
+                "½ cup butter or margarine, room temperature",
+                "1 lb confectioner's sugar, about 3¾ cups, sifted",
             ],
             instructions: [
-                "",
+                "Grease and flour a 9 x 13 x 2 inch baking pan",
+                "Heat oven to 350°",
+                "Sprinkle coconut and pecans evenly over the bottom of the prepared pan",
+                "Prepare cake mix with the appropriate measurements of water, oil and eggs, following the package directions",
+                "Pour the cake batter over the coconut and pecans",
+                "Beat together the cream cheese, butter and confectioner's sugar; drop by spoonful over the top of cake batter",
+                "Bake for about 45-50 minutes",
+                "A toothpick should come out clean when inserted into the center of the cake portion",
+                "Cool before serving",
+                "Serve upside down on dessert plates",
             ],
             image: fakeImage
         },
@@ -844,8 +868,8 @@ export default function Desserts({ query, setClickedRecipe}) {
 
     return(
         <div className="dishes-div">
-            <div className="grid-div">
-                {recipesShown.length > 0 ? dishes : <h1>Sorry, no results matching "{query}"</h1>}
+            <div className="grid-div" id={recipesShown.length > 0 ? "nothing" : "no-results-div"}>
+                {recipesShown.length > 0 ? dishes : <h1 className="sorry-no-results">Sorry, no results matching "{query}"</h1>}
             </div>
         </div>
     )

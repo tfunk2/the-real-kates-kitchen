@@ -79,7 +79,7 @@ button:focus {
     border-radius: 8pt;
     color: antiquewhite;
     position: relative;
-    min-height: 238px;
+    /* min-height: 280px; */
     height: auto;
 }
 
@@ -136,10 +136,8 @@ button:focus {
 }
 
 .modal-img {
-    /* width: 80vw; */
     height: 86vh;
     object-fit: contain;
-    border-radius: 8pt;
 }
 
 .recipe-modal {
@@ -149,23 +147,17 @@ button:focus {
     align-items: center;
     background-color: rgba(1, 25, 54, 0.97);
     height: 100vh;
-    /* max-height: 80vh; */
     width: 100vw;
-    /* max-width: 80vw; */
-    /* max-height: 90vh;
-    max-width: 80vw; */
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
-    border-radius: 8pt;
     z-index: 1002;
 }
 
 .grid-div {
     display: grid;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 48vw 48vw;
 }
 
 /* .ingredients-instructions-li {
@@ -205,6 +197,22 @@ button:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.sorry-no-results {
+    background-color: rgb(235,103,90);
+    margin: 0px;
+    text-align: center;
+    max-width: 98vw;
+    border-radius: 4px;
+    color: rgb(1, 25, 54);
+    padding: 12px;
+    box-shadow: -4px 4px 4px rgba(20, 20, 20, 0.445);
+}
+
+#no-results-div {
+    display: flex;
     justify-content: center;
 }
 
@@ -273,7 +281,7 @@ button:focus {
     .modal-img {
         width: 100vw;
         object-fit: contain;
-        border-radius: 8pt;
+        /* border-radius: 8pt; */
     }
 
     .recipe-div {
@@ -350,7 +358,7 @@ button:focus {
     .modal-img {
         width: 100vw;
         object-fit: contain;
-        border-radius: 8pt;
+        /* border-radius: 8pt; */
     }
 
     .recipe-div {
@@ -440,7 +448,7 @@ button:focus {
     .modal-img {
         width: 100vw;
         object-fit: contain;
-        border-radius: 8pt;
+        /* border-radius: 8pt; */
     }
 
     .recipe-div {
@@ -478,14 +486,13 @@ button:focus {
     .recipe-div {
         margin-top: 0vmin;
         margin-bottom: 1vmin;
-        min-height: 280px;
+        /* min-height: 280px; */
     }
 
-    .unexpanded-img {
+    /* .unexpanded-img {
         position: absolute;
         bottom: 12.5px;
-        
-    }
+    } */
 
     /* .header-div {
         display: flex;
@@ -509,6 +516,11 @@ button:focus {
 
     }
 
+    .ingredients-ul {
+        list-style-type: none;
+        padding-left: 3px;
+    }
+
     .dish-name {
         /* text-align: center; */
     }
@@ -521,7 +533,7 @@ button:focus {
     .modal-img {
         height: 88vh;
         object-fit: contain;
-        border-radius: 8pt;
+        /* border-radius: 8pt; */
     }
 
     /* .recipe-modal {

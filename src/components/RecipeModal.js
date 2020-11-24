@@ -80,8 +80,8 @@ import CrunchyCrispyCookies from '../images/dessert-recipes/crunchy-crispy-cooki
 import GramsApplesauceCookies from '../images/dessert-recipes/gram\'s-applesauce-cookies.jpg'
 import GramsCherryPie from '../images/dessert-recipes/gram\'s-cherry-pie.jpg'
 import GramsVanillaFudge from '../images/dessert-recipes/gram\'s-vanilla-fudge.png'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import JonenesKonaBread from '../images/dessert-recipes/jonene\'s-kona-banana-bread.jpg'
+import JoysGermanChocolateUpsideDownCake from '../images/dessert-recipes/joy\'s-german-chocolate-upside-down-cake.jpg'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
@@ -265,10 +265,10 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Gram's Cherry Pie recipe" className="modal-img" src={GramsCherryPie}></img>;
             case "Gram's Vanilla Fudge":
                 return <img alt="Gram's Vanilla Fudge recipe" className="modal-img" src={GramsVanillaFudge}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Jonene's Kona Bread":
+                return <img alt="Jonene's Kona Bread recipe" className="modal-img" src={JonenesKonaBread}></img>;
+            case "Joy's German Chocolate Upside Down Cake":
+                return <img alt="Joy's German Chocolate Upside Down Cake recipe" className="modal-img" src={JoysGermanChocolateUpsideDownCake}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
