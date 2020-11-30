@@ -486,8 +486,8 @@ export default function SideDishes({ query, setClickedRecipe}) {
 
     return(
         <div className="dishes-div">
-            <div className="grid-div">
-                {recipesShown.length > 0 ? dishes : <h1>Sorry, no results matching "{query}"</h1>}
+            <div className="grid-div" id={recipesShown.length > 0 ? "nothing" : "no-results-div"}>
+                {recipesShown.length > 0 ? dishes : <h1 className="sorry-no-results">Sorry, no results matching "{query}"</h1>}
             </div>
         </div>
     )

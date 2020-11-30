@@ -35,7 +35,8 @@
 }
 
 .active-tab {
-    background-color: rgb(178, 190, 181);
+    /* background-color: rgb(178, 190, 181); */
+    background-color: rgba(7,124,114, 0.95);
 }
 
 .active-tab-dark {
@@ -66,7 +67,8 @@
     }
 
     .navbar-li:hover {
-        background-color: rgb(178, 190, 181);
+        /* background-color: rgb(178, 190, 181); */
+        background-color: rgba(7,124,114, 0.95);
     }
 
     .handwritten-img {
@@ -94,7 +96,8 @@
     }
 
     .navbar-li:hover {
-        background-color: rgb(178, 190, 181);
+        /* background-color: rgb(178, 190, 181); */
+        background-color: rgba(7,124,114, 0.95);
     }
 }
 
@@ -118,7 +121,8 @@
     }
 
     .navbar-li:hover {
-        background-color: rgb(178, 190, 181);
+        /* background-color: rgb(178, 190, 181); */
+        background-color: rgba(7,124,114, 0.95);
     }
 }
 
@@ -142,7 +146,8 @@
     }
 
     .navbar-li:hover {
-        background-color: rgb(178, 190, 181);
+        /* background-color: rgb(178, 190, 181); */
+        background-color: rgba(7,124,114, 0.95);
     }
 
     .handwritten-img {
