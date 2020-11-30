@@ -577,7 +577,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Lemon Cookies",
             ingredients: [
                 "",
             ],

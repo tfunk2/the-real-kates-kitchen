@@ -202,7 +202,7 @@ button:focus {
 
 .sorry-no-results {
     background-color: rgb(235,103,90);
-    margin: 0px;
+    margin-top: 10px;
     text-align: center;
     max-width: 98vw;
     border-radius: 4px;
