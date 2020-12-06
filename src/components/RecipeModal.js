@@ -82,28 +82,24 @@ import GramsCherryPie from '../images/dessert-recipes/gram\'s-cherry-pie.jpg'
 import GramsVanillaFudge from '../images/dessert-recipes/gram\'s-vanilla-fudge.png'
 import JonenesKonaBread from '../images/dessert-recipes/jonene\'s-kona-banana-bread.jpg'
 import JoysGermanChocolateUpsideDownCake from '../images/dessert-recipes/joy\'s-german-chocolate-upside-down-cake.jpg'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import LemonCookies from '../images/dessert-recipes/lemon-cookies.jpg'
+import LemonCrinkleCakeMixCookies from '../images/dessert-recipes/lemon-crinkle-cake-mix-cookies.png'
+import LemonPoppyBread from '../images/dessert-recipes/lemon-poppy-bread.jpg'
+import MonkeyBread from '../images/dessert-recipes/monkey-bread.jpg'
+import MrsBrewstersDivinity from '../images/dessert-recipes/mrs-brewster\'s-divinity.jpg'
+import OreoBalls from '../images/dessert-recipes/oreo-balls.jpg'
+import PaulaDeansNotYourMamasBananaPudding from '../images/dessert-recipes/paula-dean\'s-not-your-mama\'s-banana-pudding.jpg'
+import PistachioAmbrosia from '../images/dessert-recipes/pistachio-ambrosia.jpg'
+import PretzelTurtles from '../images/dessert-recipes/pretzel-turtles.jpg'
+import PumpkinBread from '../images/dessert-recipes/pumpkin-bread.jpg'
+import RussianTeaCakes from '../images/dessert-recipes/russian-tea-cakes.jpg'
+import RussianTeaCakesDoubleBatch from '../images/dessert-recipes/russian-tea-cakes-double-batch.jpg'
+import SaltineToffee from '../images/dessert-recipes/saltine-toffee.jpg'
+import SoftAndThickSnickerdoodles from '../images/dessert-recipes/soft-and-thick-snickerdoodles.jpg'
+import SpiceCookiesWithPumpkinDip from '../images/dessert-recipes/spice-cookies-with-pumpkin-dip.jpg'
+import SwedishGlogg from '../images/dessert-recipes/swedish-glogg.jpg'
+import TexasSheetCakeCookies from '../images/dessert-recipes/texas-sheet-cake-cookies.jpg'
+import ThumbprintCookies from '../images/dessert-recipes/thumbprint-cookies.jpg'
 // import  from '../images/dessert-recipes/'
 // import  from '../images/dessert-recipes/'
 
@@ -269,50 +265,42 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Jonene's Kona Bread recipe" className="modal-img" src={JonenesKonaBread}></img>;
             case "Joy's German Chocolate Upside Down Cake":
                 return <img alt="Joy's German Chocolate Upside Down Cake recipe" className="modal-img" src={JoysGermanChocolateUpsideDownCake}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Lemon Cookies":
+                return <img alt="Lemon Cookies recipe" className="modal-img" src={LemonCookies}></img>;
+            case "Lemon Crinkle Cake Mix Cookies":
+                return <img alt="Lemon Crinkle Cake Mix Cookies recipe" className="modal-img" src={LemonCrinkleCakeMixCookies}></img>;
+            case "Lemon Poppy Bread":
+                return <img alt="Lemon Poppy Bread recipe" className="modal-img" src={LemonPoppyBread}></img>;
+            case "Monkey Bread":
+                return <img alt="Monkey Bread recipe" className="modal-img" src={MonkeyBread}></img>;
+            case "Mrs. Brewster's Divinity":
+                return <img alt="Mrs. Brewster's Divinity recipe" className="modal-img" src={MrsBrewstersDivinity}></img>;
+            case "Oreo Balls":
+                return <img alt="Oreo Balls recipe" className="modal-img" src={OreoBalls}></img>;
+            case "Paula Dean's Not Your Mama's Banana Pudding":
+                return <img alt="Paula Dean's Not Your Mama's Banana Pudding recipe" className="modal-img" src={PaulaDeansNotYourMamasBananaPudding}></img>;
+            case "Pistachio Ambrosia":
+                return <img alt="Pistachio Ambrosia recipe" className="modal-img" src={PistachioAmbrosia}></img>;
+            case "Pretzel Turtles":
+                return <img alt="Pretzel Turtles recipe" className="modal-img" src={PretzelTurtles}></img>;
+            case "Pumpkin Bread":
+                return <img alt="Pumpkin Bread recipe" className="modal-img" src={PumpkinBread}></img>;
+            case "Russian Tea Cakes":
+                return <img alt="Russian Tea Cakes recipe" className="modal-img" src={RussianTeaCakes}></img>;
+            case "Russian Tea Cakes Double Batch":
+                return <img alt="Russian Tea Cakes Double Batch recipe" className="modal-img" src={RussianTeaCakesDoubleBatch}></img>;
+            case "Saltine Toffee":
+                return <img alt="Saltine Toffee recipe" className="modal-img" src={SaltineToffee}></img>;
+            case "Soft and Thick Snickerdoodles":
+                return <img alt="Soft and Thick Snickerdoodles recipe" className="modal-img" src={SoftAndThickSnickerdoodles}></img>;
+            case "Spice Cookies With Pumpkin Dip":
+                return <img alt="Spice Cookies With Pumpkin Dip recipe" className="modal-img" src={SpiceCookiesWithPumpkinDip}></img>;
+            case "Swedish Glogg":
+                return <img alt="Swedish Glogg recipe" className="modal-img" src={SwedishGlogg}></img>;
+            case "Texas Sheet Cake Cookies":
+                return <img alt="Texas Sheet Cake Cookies recipe" className="modal-img" src={TexasSheetCakeCookies}></img>;
+            case "Thumbprint Cookies":
+                return <img alt="Thumbprint Cookies recipe" className="modal-img" src={ThumbprintCookies}></img>;
             case "":
                 return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
             case "":
