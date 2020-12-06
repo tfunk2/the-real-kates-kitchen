@@ -20,14 +20,14 @@ export default function Recipe({ recipe, ingredients, instructions, recipesShown
                     <div className="img-and-ingredients">
                         <img className="food-img" alt={recipe.name} src={recipe.image}></img>
                         <div className="ingredients-or-instructions-div">
-                            <h2 className="section-topper-h2">Ingredients</h2>
+                            <span className="section-topper-span">Ingredients</span>
                             <ul className="ingredients-ul">
                                 {ingredients(recipesShown[recipesShown.indexOf(recipe)].ingredients)}
                             </ul>
                         </div>
                     </div>
-                    <div className="ingredients-or-instructions-div">
-                        <h2 className="section-topper-h2">Instructions</h2>
+                    <div id="instructions" className="ingredients-or-instructions-div">
+                        <span className="section-topper-span">Instructions</span>
                         <ul className="instructions-ul">
                             {instructions(recipesShown[recipesShown.indexOf(recipe)].instructions)}
                         </ul>

@@ -89,6 +89,7 @@ button:focus {
     height: 200px;
     border-radius: 8pt;
     margin-top: 10px;
+    border: rgba(5, 94, 86, 0.95) 8px solid;
 }
 
 .unexpanded-img {
@@ -115,7 +116,7 @@ button:focus {
     margin: 0px;
     /* font-family: 'Kalam', cursive; */
     font-family: 'Lilita One', cursive;
-
+    text-shadow: -3px 3px 3px rgba(5, 94, 86, 0.95);
 }
 
 .ingredients-div {
@@ -123,11 +124,14 @@ button:focus {
     flex-direction: column;
 }
 
-.section-topper-h2 {
+.section-topper-span {
     text-align: center;
     font-size: 24px;
     font-family: 'Kalam', cursive;
     margin-bottom: 0px;
+    margin-top: 8px;
+    background-color:  rgba(5, 94, 86, 0.95);
+    border-radius: 4pt;
     /* font-family: 'Lilita One', cursive; */
 }
 
@@ -135,6 +139,15 @@ button:focus {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 10px;
+}
+
+#instructions {
+    margin-left: 0px;
+}
+
+#instructions > .section-topper-span {
+    margin-top: 0px;
 }
 
 .modal-img {
@@ -172,12 +185,12 @@ button:focus {
 
 .ingredients-ul {
     list-style-type: none;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .instructions-ul {
     list-style-type: none;
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .cherry-bullet-point {
@@ -248,7 +261,7 @@ button:focus {
         font-size: 9vw;
     }
 
-    .section-topper-h2 {
+    .section-topper-span {
         text-align: center;
         font-size: 20px;
     }
@@ -262,7 +275,7 @@ button:focus {
     }
 
     .ingredients-or-instructions-div {
-
+        margin-left: 0px;
     }
 
     .dish-name {
@@ -306,7 +319,7 @@ button:focus {
         padding-top: 140px;
     }
 
-    .section-topper-h2 {
+    .section-topper-span {
         text-align: center;
         font-size: 20px;
     }
@@ -345,7 +358,7 @@ button:focus {
     }
 
     .ingredients-or-instructions-div {
-
+        margin-left: 0px;
     }
 
     .dish-name {
@@ -422,7 +435,7 @@ button:focus {
         flex-direction: column;
     }
 
-    .section-topper-h2 {
+    .section-topper-span {
         text-align: center;
         font-size: 20px;
     }
@@ -436,7 +449,7 @@ button:focus {
     }
 
     .ingredients-or-instructions-div {
-
+        margin-left: 0px;
     }
 
     .dish-name {
@@ -521,7 +534,7 @@ button:focus {
         flex-direction: column;
     } */
 
-    .section-topper-h2 {
+    .section-topper-span {
         text-align: center;
         font-size: 20px;
     }
@@ -535,7 +548,7 @@ button:focus {
     }
 
     .ingredients-or-instructions-div {
-
+        margin-left: 0px;
     }
 
     .ingredients-ul {

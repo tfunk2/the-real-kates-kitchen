@@ -8,6 +8,31 @@ import LoadedPotatoSoup from '../images/main-dishes/Loaded-Potato-Soup.jpg'
 import BerryGoodFrenchToast from '../images/main-dishes/berry-good-french-toast.jpg'
 import BreadingForChicken from '../images/main-dishes/breaded-chicken-cutlets.jpg'
 import BreakfastCasserole from '../images/main-dishes/Breakfast-Casserole.jpg'
+import ChickenAndRice from '../images/main-dishes/Chicken-Rice.jpg'
+import ChickenTortillaSoup from '../images/main-dishes/chickentortillasoup.jpg'
+import CompanyCasserole from '../images/main-dishes/Company-Casserole.jpg'
+import SloppyJoes from '../images/main-dishes/Sloppy-Joes.jpg'
+import CrockpotCasserole from '../images/main-dishes/slow-cooker-breakfast-casserole.jpg'
+import DumpAndBakeChicken from '../images/main-dishes/Dump-and-Bake-Chicken-.jpg'
+import Meatloaf from '../images/main-dishes/Meatloaf.jpg'
+import PerfectWaffles from '../images/main-dishes/perfect-waffles.jpg'
+import GrilledCheese from '../images/main-dishes/grilled-cheese.jpg'
+import HashbrownCasserole from '../images/main-dishes/hashbrown-casserole.jpeg'
+import HeartyBreakfastCasserole from '../images/main-dishes/hearty-breakfast-casserole.jpg'
+import ItalianStuffedShells from '../images/main-dishes/Italian-Stuffed-Shells.jpg'
+import ChickenSalad from '../images/main-dishes/chicken-salad.jpg'
+import AdoringBreakfastCasserole from '../images/main-dishes/breakfast-casserole-2.jpg'
+import SpaghettiCasserole from '../images/main-dishes/spaghetti-casserole.jpg'
+import CreamyWhiteChili from '../images/main-dishes/Creamy-White-Chili.jpg'
+import MikesRoast from '../images/main-dishes/crock-pot-roast.jpg'
+import ParmesanChicken from '../images/main-dishes/parmesan-chicken-cutlets.jpeg'
+import PhillyCheeseSteakSloppyJoes from '../images/main-dishes/philly-cheesesteak-sloppy-joes.jpg'
+import PotRoast from '../images/main-dishes/Pot-Roast.jpg'
+import CreamyChickenChili from '../images/main-dishes/creamy-chicken-chili.jpg'
+import SimplyLasagna from '../images/main-dishes/Simply-Lasagna.jpg'
+import WhiteChickenChili from '../images/main-dishes/whtie-chicken-chili-recipe.jpg'
+import ZuppaToscana from '../images/main-dishes/slow-cooker-zuppa-toscana.jpg'
+import WhiteChickenEnchiladas from '../images/main-dishes/White-Chicken-Enchiladas.jpg'
 // import '../stylesheets/MainDishes.css';
 
 export default function MainDishes({ query, setClickedRecipe }) {
@@ -122,7 +147,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Increase the heat to high and add chicken broth, then stir in the rinsed rice. Bring to a boil, then reduce heat to low. Stir again and then cover and let simmer for 15 to 20 minutes or until the rice is cooked, stirring occasionally",
                 "Stir in the parmesan cheese and fresh parsley. Add more salt, pepper or seasonings if desired",
             ],
-            image: fakeImage
+            image: ChickenAndRice
         },
         {
             name: "Chicken Tortilla Soup",
@@ -137,7 +162,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: ChickenTortillaSoup
         },
         {
             name: "Company Casserole",
@@ -158,7 +183,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "End with a meat sauce layer & top with the remaining mozzarella",
                 "Bake at 350 for 45 min",
             ],
-            image: fakeImage
+            image: CompanyCasserole
         },
         {
             name: "Cris' Sloppy Joes",
@@ -175,7 +200,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: SloppyJoes
         },
         {
             name: "Crockpot Breakfast Casserole",
@@ -196,7 +221,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Add/pour egg mixture, spread evenly",
                 "Cook low 6-8 hours",
             ],
-            image: fakeImage
+            image: CrockpotCasserole
         },
         {
             name: "Dump and Bake Chicken Parmesan",
@@ -220,7 +245,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Spread breadcrumbs, mozzarella cheese and parmesan cheese over top",
                 "Bake uncovered for 10 minutes or until cheese is melted and bread crumbs are golden brown"
             ],
-            image: fakeImage
+            image: DumpAndBakeChicken
         },
         {
             name: "Gram's Meatloaf",
@@ -242,7 +267,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Pour diluted tomato soup over",
                 "Bake at 350 degrees for around an hour (cover with foil for first 30 minutes)",
             ],
-            image: fakeImage
+            image: Meatloaf
         },
         {
             name: "Grandma Funk's Perfect Waffles",
@@ -260,7 +285,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Add liquid ingredients and blend until smooth",
                 "Batter will be thin, use 1 cup to each waffle",
             ],
-            image: fakeImage
+            image: PerfectWaffles
         },
         {
             name: "Grilled Cheese - Oven",
@@ -274,7 +299,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "10 minutes on one side",
                 "5 minutes on the other side",
             ],
-            image: fakeImage
+            image: GrilledCheese
         },
         {
             name: "Hashbrown Casserole",
@@ -295,7 +320,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Let set in refrigerator overnight",
                 "Next day, add hashbrowns, and bake 50 min at 350 degrees"
             ],
-            image: fakeImage
+            image: HashbrownCasserole
         },
         {
             name: "Hearty Breakfast Casserole",
@@ -319,7 +344,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Bake covered in foil at 350 degrees for 90 minutes",
                 "Let rest 10 minutes before serving",
             ],
-            image: fakeImage
+            image: HeartyBreakfastCasserole
         },
         {
             name: "Italian Casserole with Shells",
@@ -341,7 +366,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Pour remainder of spaghetti sauce over shells and cover with mozzarella",
                 "Bake at 300 degrees until heated and cheese is melted",
             ],
-            image: fakeImage
+            image: ItalianStuffedShells
         },
         {
             name: "Jo's Chicken Salad",
@@ -357,7 +382,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             instructions: [
                 "No instructions provided"
             ],
-            image: fakeImage
+            image: ChickenSalad
         },
         {
             name: "Jodi's Adoring Breakfast Casserole",
@@ -378,7 +403,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Cover with foil and refrigerate overnight",
                 "In the morning, bake at 350 degrees, covered for about 40 min, uncover for 10 min to let it brown",
             ],
-            image: fakeImage
+            image: AdoringBreakfastCasserole
         },
         {
             name: "Laurie's Spaghetti Casserole",
@@ -401,7 +426,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Remove and sprinkle top with shredded block of cheese",
                 "Bake until cheese is melted",
             ],
-            image: fakeImage
+            image: SpaghettiCasserole
         },
         {
             name: "Lisa's White Chili",
@@ -423,7 +448,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: CreamyWhiteChili
         },
         {
             name: "Mike's Roast",
@@ -442,7 +467,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Add baby carrots and potatoes",
                 "Cook high another hour, turn to low another 3 hours"
             ],
-            image: fakeImage
+            image: MikesRoast
         },
         {
             name: "Parmesan Chicken Cutlets",
@@ -462,7 +487,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Arrange on non-stick baking sheet",
                 "Bake until chicken is cooked through, 20-25 minutes"
             ],
-            image: fakeImage
+            image: ParmesanChicken
         },
         {
             name: "Philly Cheese Steak Sloppy Joes",
@@ -493,7 +518,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Turn off the heat, add in the provolone cheese",
                 "Served on toasted brioche buns"
             ],
-            image: fakeImage
+            image: PhillyCheeseSteakSloppyJoes
         },
         {
             name: "Pot Roast",
@@ -513,7 +538,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Do not add water",
                 "Cook on low for about 8 hours"
             ],
-            image: fakeImage
+            image: PotRoast
         },
         {
             name: "Simple Slow Cooker Creamy Chicken Chili",
@@ -529,7 +554,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Slow cooker on high for 4 hours or low for 6 hours",
                 "Serve over rice with tortillas"
             ],
-            image: fakeImage
+            image: CreamyChickenChili
         },
         {
             name: "Simply Lasagna",
@@ -556,7 +581,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Remove foil, continue baking for 15 min, or until heated through",
                 "Let stand 15 min before cutting to serve"
             ],
-            image: fakeImage
+            image: SimplyLasagna
         },
         {
             name: "Slow Cooker Creamy White Chicken Chili",
@@ -593,7 +618,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Add cream cheese and half and half, stir, then cover and cook on HIGH for 15 minutes, or until chili is creamy and slightly thickened",
                 "Stir well and serve with desired toppings",
             ],
-            image: fakeImage
+            image: WhiteChickenChili
         },
         {
             name: "Slow Cooker Zuppa Toscana",
@@ -616,7 +641,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Return the lid and let set for 5 min",
                 "Stir in whipping cream and serve"
             ],
-            image: fakeImage
+            image: ZuppaToscana
         },
         {
             name: "White Chicken Enchiladas",
@@ -639,7 +664,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Bake 22 min, then high broil 3 min",
                 "(Note: sauce doesn't freeze well)"
             ],
-            image: fakeImage
+            image: WhiteChickenEnchiladas
         },
     ]
 // come back to here man!
