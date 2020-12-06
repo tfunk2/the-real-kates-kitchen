@@ -32,7 +32,7 @@ export default function Recipe({ recipe, ingredients, instructions, recipesShown
                             {instructions(recipesShown[recipesShown.indexOf(recipe)].instructions)}
                         </ul>
                     </div>
-                    <button onClick={() => handleRecipeClick(recipe.name)}>Original Recipe</button>
+                    <button className="original-recipe-button" onClick={() => handleRecipeClick(recipe.name)}>Original Recipe</button>
                 </> : <></>
             }
             <img className="arrow-img" src={isRecipeExpanded ? UpArrow : DownArrow} onClick={handleExpansion}></img>
