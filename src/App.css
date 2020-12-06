@@ -72,8 +72,9 @@ button:focus {
 .recipe-div {
     background-color: rgba(7,124,114, 0.95);
     width: 86%;
-    padding: 2vmin;
-    margin-bottom: 1vmin;
+    padding: 10px;
+    padding-top: 4px;
+    margin-bottom: 20px;
     margin-top: 1vmin;
     justify-self: center;
     align-self: flex-start;
@@ -81,8 +82,9 @@ button:focus {
     border-radius: 8pt;
     color: antiquewhite;
     position: relative;
-    /* min-height: 280px; */
+    min-height: 340px;
     height: auto;
+    border: rgba(5, 94, 86, 0.95) 4px solid;
 }
 
 .food-img {
@@ -93,8 +95,8 @@ button:focus {
 }
 
 .unexpanded-img {
-    /* position: absolute;
-    right: 24%; */
+    position: absolute;
+    bottom: 12px;
 }
 
 .arrow-img {
@@ -114,9 +116,10 @@ button:focus {
 
 .dish-name {
     margin: 0px;
-    /* font-family: 'Kalam', cursive; */
+    font-size: 26pt;
     font-family: 'Lilita One', cursive;
     text-shadow: -3px 3px 3px rgba(5, 94, 86, 0.95);
+    line-height: 1.1;
 }
 
 .ingredients-div {
@@ -520,7 +523,6 @@ button:focus {
 
     .recipe-div {
         margin-top: 0vmin;
-        margin-bottom: 1vmin;
         /* min-height: 280px; */
     }
 

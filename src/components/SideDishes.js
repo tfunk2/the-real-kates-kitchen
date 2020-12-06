@@ -2,6 +2,32 @@ import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import Recipe from '../components/Recipe.js'
 import SingleCherry from '../images/single-cherry.png'
+// Food Images:
+import BroccoliCheeseRice from '../images/side-dishes/instant-pot-cheesy-broccoli-rice.jpg'
+import WildfireDip from '../images/side-dishes/wildfire-dip.jpg'
+import GarlicBiscuits from '../images/side-dishes/garlic-biscuits.jpg'
+import FriedRice from '../images/side-dishes/fried-rice.jpg'
+import RoastedVeggies from '../images/side-dishes/roasted-veggies.jpg'
+import Guacamole from '../images/side-dishes/guacamole.jpg'
+import CornDip from '../images/side-dishes/Corn-Dip.jpg'
+import KahluaDip from '../images/side-dishes/kahlua-dip.jpeg'
+import NoBakeBites from '../images/side-dishes/no-bake-energy-bites.jpg'
+import ParmesanCrustedAsparagus from '../images/side-dishes/parmesan-asparagus.jpg'
+import PicnicPotatoes from '../images/side-dishes/picnic-potatoes.jpg'
+import PretzelCrack from '../images/side-dishes/pretzel-crack.jpeg'
+import PumpkinChexMix from '../images/side-dishes/pumpkin-chex-mix.png'
+import Hummus from '../images/side-dishes/Homemade-Hummus-2.jpg'
+import BrusselsSprouts from '../images/side-dishes/brussel-sprouts.jpg'
+import RoastedCorn from '../images/side-dishes/roasted-corn.jpg'
+import SaltedCaramelPopcorn from '../images/side-dishes/caramelpopcorn.jpg'
+import SmotheredGreenBeans from '../images/side-dishes/smothere-green-beans.jpg'
+import SnackMix from '../images/side-dishes/snack-mix.jpg'
+import SnackMix2 from '../images/side-dishes/snack-mix-2.jpg'
+import SugarPecans from '../images/side-dishes/Sugar-Pecans.jpg'
+import BestRoastedVeggies from '../images/side-dishes/roasted-veggies-2.jpg'
+import OrientalColeSlaw from '../images/side-dishes/oreintal-coleslaw.jpg'
+import WhitePartyMix from '../images/side-dishes/WhiteChocolatePartyMix.jpg'
+
 // import '../stylesheets/SideDishes.css';
 
 export default function SideDishes({ query, setClickedRecipe}) {
@@ -22,7 +48,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Put broccoli, cheese whiz, cream of chicken cans, and rice in big pan",
                 "Bake 30-45 minutes",
             ],
-            image: fakeImage
+            image: BroccoliCheeseRice
         },
         {
             name: "Charlotte's Wildfire Chili Cheese Dip",
@@ -39,7 +65,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Bake 350 degrees for 30-40 minutes until hot and bubbly",
                 "Serve with large corn chips",
             ],
-            image: fakeImage
+            image: WildfireDip
         },
         {
             name: "Cheddar and Roasted Garlic Biscuits",
@@ -53,7 +79,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Drop by spoonufls onto ungreased baking sheets",
                 "Bake at 375 for 10-12 minutes"
             ],
-            image: fakeImage
+            image: GarlicBiscuits
         },
         {
             name: "Easy Fried Rice",
@@ -72,7 +98,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Off heat, recoat same skiller with cooking spray; set over medium-high heat. Add carrots and all but 2 tablespoons scallions; saute until carrots are crisp-tender, about 2 to 3 minutes.",
                 "Stir in cooked rice, peas and soy sauce; cook until heated through, stirring once or twice, about 1 minute. Gently stir in cooked egg and remaining scallions; heat through. Yields about ¾ cup per serving."
             ],
-            image: fakeImage
+            image: FriedRice
         },
         {
             name: "General Roasting Times for Vegetables",
@@ -92,7 +118,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "2. Pair \"vegetable friends\": Second, you can pair together \"vegetable friends\"--ones that roast at roughly the same rate. For instance, you could roast cauliflower and broccoli together, or butternut squash with potatoes. Combine these on the same baking sheet and roast them together. If the baking sheet is getting crowded, split them between two sheets.",
                 "3. Roast in stages: Third, you can add different vegetables to the baking sheet in stages--start roasting the hardest, longest-cooking vegetables first, and then add softer, quicker-cooking vegetables later on. If the baking sheet starts to get full, split the vegetables between two pans so you don't crowd them. Aim to have all the vegetables finish roasting around the same time, and remember: A little extra roasting time is unlikely to hurt."
             ],
-            image: fakeImage
+            image: RoastedVeggies
         },
         {
             name: "Guacamole",
@@ -106,7 +132,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
             instructions: [
                 "Yummy! - only instruction provided",
             ],
-            image: fakeImage
+            image: Guacamole
         },
         {
             name: "Joy's Corn Dip",
@@ -120,7 +146,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: CornDip
         },
         {
             name: "Kahlua Dip",
@@ -138,7 +164,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Cover and Chill 1-2 days.",
                 "Serve as a dip for fruit"
             ],
-            image: fakeImage
+            image: KahluaDip
         },
         {
             name: "No Bake Energy Bites",
@@ -157,7 +183,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Once chilled, roll into balls of whatever size you would like. (Mine were about 1\" in diameter.) Store in an airtight container and keep refrigerated for up to 1 week.",
                 "Makes about 20-25 balls"
             ],
-            image: fakeImage
+            image: NoBakeBites
         },
         {
             name: "Parmesan Crusted Asparagus",
@@ -178,7 +204,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Take out and sprinkle with parmesan",
                 "Bake just until melted"
             ],
-            image: fakeImage
+            image: ParmesanCrustedAsparagus
         },
         {
             name: "Laura's Picnic Potatoes",
@@ -200,7 +226,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Bake at 350 for 1 hour 15 minutes",
                 "Can do in crockpot - is a little soupy but good"
             ],
-            image: fakeImage
+            image: PicnicPotatoes
         },
         {
             name: "Pretzel Crack",
@@ -214,7 +240,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: PretzelCrack
         },
         {
             name: "Pumpkin Pie Chex Mix (Amy O'Guin's)",
@@ -237,7 +263,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Bake at 300 degrees for about 20 minutes. stirring every 5 minutes.",
                 "Spread out on wax paper to cool",
             ],
-            image: fakeImage
+            image: PumpkinChexMix
         },
         {
             name: "Rachel's Hummus",
@@ -254,7 +280,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Drizzle olive oil on top as an appetizer",
                 "If you feel like hummus is too thick add 1-2 Tbsp. of water and stir",
             ],
-            image: fakeImage
+            image: Hummus
         },
         {
             name: "Roasted Brussels Sprouts",
@@ -270,7 +296,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Roast in the preheated oven for 30 to 45 minutes, shaking pan every 5 to 7 minutes for even browning. Reduce heat when necessary to prevent burning. Brussels sprouts should be darkest brown, almost black, when done. Adjust seasoning with kosher salt, if necessary. Serve immediately.",
                 "Suggestions: Cut in half. Make sure \"choke\" is removed - to avoid bitterness. Add garlic. Parboil 2 minutes - cuts down roasting time. Try 375 degrees."
             ],
-            image: fakeImage
+            image: BrusselsSprouts
         },
         {
             name: "Roasted Corn on the Cob",
@@ -284,7 +310,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Place on cookie sheet.",
                 "450 degrees for 30 minutes.",
             ],
-            image: fakeImage
+            image: RoastedCorn
         },
         {
             name: "Salted Caramel Popcorn",
@@ -302,7 +328,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Bake at 300 degrees for 30 minutes - stir every 10 minutes.",
                 "Optional: Add 2 cups pecans - makes approximately 16 cups popped.",
             ],
-            image: fakeImage
+            image: SaltedCaramelPopcorn
         },
         {
             name: "Smothered Green Beans",
@@ -320,7 +346,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Stir in beans/broth, cook until heated through",
                 "Season with salt and pepper",
             ],
-            image: fakeImage
+            image: SmotheredGreenBeans
         },
         {
             name: "Snack Cracker Mix",
@@ -345,7 +371,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Once the hour of shaking is done, spread the mixture out on the counter to \"dry\" out a bit before storing.",
                 "Put in plastic ice cream buckets or storage containers"
             ],
-            image: fakeImage
+            image: SnackMix
         },
         {
             name: "Snack Crackers",
@@ -362,7 +388,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Stir every 10 minutes for 1 hour.",
                 "Store in an airtight jar.",
             ],
-            image: fakeImage
+            image: SnackMix2
         },
         {
             name: "Sugar Coated Pecans",
@@ -380,7 +406,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "Add pecans to eggs whites, stir to coat the nuts evenly. Remove the nuts, and toss them in the sugar mixture until coated. Spread the nuts out on the prepared baking sheet.",
                 "Bake at 250 degrees F (120 degrees C) for 1 hour. Stir every 15 minutes.",
             ],
-            image: fakeImage
+            image: SugarPecans
         },
         {
             name: "The Best Roasted Vegetables Ever",
@@ -401,7 +427,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "1. Preheat the oven to 375° F (180° C). Quarter and slice the onion thinly. Dice all the vegetables into pieces that are approximately the same size (no larger than ½ inch). Pile the vegetables into a baking dish so that the vegetables lie a few inches thick. Season with salt, pepper and herbs to taste and then pour the olive oil over the vegetables to make sure they are well-coated and glistening with oil. If need be, add more oil.",
                 "2. Put the dish in the oven and cook for 45 minutes to an hour. Halfway through the cooking process, remove the dish from the oven and very gently stir the vegetables so that the ones at the bottom come to the top. Towards the end of the cooking process, stir a second time. Remove from the oven and let cool slightly. Check for seasoning and serve.",
             ],
-            image: fakeImage
+            image: BestRoastedVeggies
         },
         {
             name: "Tina's Oriental Cole Slaw",
@@ -417,7 +443,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
                 "In a jar or bowl, mix ½ cup salad oil, ½ cup vinegar, ¾ cup cugar (and seasoning packet from Ramen if you decide to use it). Mix or shake until sigar is melted. Set aside.",
                 "An hour or so before serving, add almonds and sunflower seeds, crushed up Ramen noodles if you use them, then add dressing and toss.",
             ],
-            image: fakeImage
+            image: OrientalColeSlaw
         },
         {
             name: "White Party Mix",
@@ -432,7 +458,7 @@ export default function SideDishes({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: WhitePartyMix
         }
     ]
 
