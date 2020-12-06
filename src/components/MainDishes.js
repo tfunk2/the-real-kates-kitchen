@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import Recipe from '../components/Recipe.js'
 import SingleCherry from '../images/single-cherry.png'
+// Food Images:
+// Main Dishes
+import LoadedPotatoSoup from '../images/main-dishes/Loaded-Potato-Soup.jpg'
+import BerryGoodFrenchToast from '../images/main-dishes/berry-good-french-toast.jpg'
+import BreadingForChicken from '../images/main-dishes/breaded-chicken-cutlets.jpg'
+import BreakfastCasserole from '../images/main-dishes/Breakfast-Casserole.jpg'
 // import '../stylesheets/MainDishes.css';
 
 export default function MainDishes({ query, setClickedRecipe }) {
@@ -22,7 +28,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Mix together in crockpot, break up cream cheese, mix in",
                 "Cook on high 3 hours, stirring occasionally"
             ],
-            image: fakeImage
+            image: LoadedPotatoSoup
         },
         {
             name: "Berry Good French Toast",
@@ -52,7 +58,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Sprinkle cinnamon sugar and powdered sugar on top",
                 "Serve with maple syrup",
             ],
-            image: fakeImage
+            image: BerryGoodFrenchToast
         },
         {
             name: "Breading for Chicken",
@@ -71,7 +77,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Dip chicken in beaten eggs, then dip in dry mixture",
                 "Cook in oil about 3 min each side",
             ],
-            image: fakeImage
+            image: BreadingForChicken
         },
         {
             name: "Breakfast Casserole",
@@ -92,7 +98,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
                 "Refrigerate overnight",
                 "Bake at 350 degrees uncovered for 35 minutes or until done",
             ],
-            image: fakeImage
+            image: BreakfastCasserole
         },
         {
             name: "Chicken and Rice",

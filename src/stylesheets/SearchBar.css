@@ -48,8 +48,8 @@
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .search-bar-div {
-        margin-right: 1vw;
-        margin-bottom: 1vw;
+        margin-left: 1vw;
+        /* margin-bottom: 1vw; */
     }
 
     .search-bar {
@@ -59,16 +59,13 @@
 
     .x-button {
 
-    }
-    .search-bar-div {
-        margin-right: 0vw;
     }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .search-bar-div {
-        margin-right: 1vw;
-        margin-bottom: 1vw;
+        /* margin-right: 0vw; */
+        /* margin-bottom: 1vw; */
     }
 
     .search-bar {
@@ -78,16 +75,13 @@
 
     .x-button {
 
-    }
-    .search-bar-div {
-        margin-right: 0vw;
     }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
     .search-bar-div {
-        margin-right: 1vw;
-        margin-bottom: 1vw;
+        /* margin-right: 1vw;
+        margin-bottom: 1vw; */
     }
 
     .search-bar {
@@ -97,16 +91,13 @@
 
     .x-button {
 
-    }
-    .search-bar-div {
-        margin-right: 0vw;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .search-bar-div {
         margin-right: 5vw;
-        margin-bottom: 1vw;
+        padding-top: 1vw;
     }
 
     .search-bar {

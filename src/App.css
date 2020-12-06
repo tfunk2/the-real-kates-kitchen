@@ -48,6 +48,8 @@ button:focus {
     margin: 0px 0px 0px 1vw;
     font-family: 'Lilita One', cursive;
     font-size: 5vw;
+    line-height: .8;
+    margin-top: 20px;
 }
 
 .kates-text-darker {
@@ -64,7 +66,7 @@ button:focus {
 }
 
 .current-page-space {
-    padding-top: 13vw;
+    padding-top: 12.5vw;
 }
 
 .recipe-div {
@@ -95,10 +97,10 @@ button:focus {
 }
 
 .arrow-img {
-    height: 12px;
+    height: 24px;
     position: absolute;
-    right: 12px;
-    bottom: 12px;
+    right: 4px;
+    bottom: 8px;
 }
 
 .img-and-ingredients {
@@ -218,7 +220,7 @@ button:focus {
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .current-page-space {
-        padding-top: 150px;
+        padding-top: 132px;
     }
 
     .app-header {
@@ -238,6 +240,8 @@ button:focus {
         width: 100%;
         text-align: center;
         font-size: 10vw;
+        line-height: .5;
+        margin-top: 12px;
     }
     
     .kitchen-text {
@@ -299,7 +303,7 @@ button:focus {
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .current-page-space {
-        padding-top: 160px;
+        padding-top: 140px;
     }
 
     .section-topper-h2 {
@@ -324,6 +328,8 @@ button:focus {
         width: 100%;
         text-align: center;
         font-size: 10vw;
+        line-height: .5;
+        margin-top: 14px; 
     }
     
     .kitchen-text {
@@ -391,6 +397,8 @@ button:focus {
         width: 100%;
         text-align: center;
         font-size: 30pt;
+        line-height: .5;
+        margin-top: 14px;
     }
     
     .kitchen-text {
@@ -398,7 +406,7 @@ button:focus {
     }
 
     .current-page-space {
-        padding-top: 180px;
+        padding-top: 158px;
     }
 
     .recipe-div {
@@ -485,6 +493,8 @@ button:focus {
         width: 100%;
         text-align: center;
         font-size: 6.6vw;
+        line-height: .5;
+        margin-top: 10px;
     }
     
     .kitchen-text {

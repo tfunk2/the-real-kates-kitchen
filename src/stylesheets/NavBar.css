@@ -118,11 +118,16 @@
 
     .navbar-li {
         height: 50px;
+        min-width: 20%;
+        width: 30%;
     }
 
     .navbar-li:hover {
         /* background-color: rgb(178, 190, 181); */
         background-color: rgba(7,124,114, 0.95);
+    }
+    .handwritten-img {
+        height: 78%;
     }
 }
 
@@ -133,6 +138,7 @@
 
     .navbar-ul {
         width: 100%;
+        padding-top: 1vw;
     }
 
     .navbar-h1 {
