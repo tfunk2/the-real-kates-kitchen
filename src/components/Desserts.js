@@ -3,55 +3,53 @@ import fakeImage from '../images/blue-terrazzo-seamless.jpg'
 import Recipe from '../components/Recipe.js'
 import SingleCherry from '../images/single-cherry.png'
 // Food Images:
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
-// import  from '../images/desserts/'
+import AmishBread from '../images/desserts/homemade-amish-bread-horiz.png'
+import GingerbreadCookies from '../images/desserts/gingerbread-cookies.jpg'
+import BananaOrangeSoftees from '../images/desserts/banana-orange-softees.jpeg'
+import BananaSquares from '../images/desserts/banana-squares.jpg'
+import ButtercreamFrosting from '../images/desserts/buttercream-frosting.jpg'
+import CaramelCornPuffTreats from '../images/desserts/CaramelCornPuffTreats.jpg'
+import CherryCoffeeCake from '../images/desserts/cherry-coffee-cake.jpg'
+import ChocolateChipCookies from '../images/desserts/Chocolate-Chip-Cookies.jpg'
+import ChocolateMaltedCookies from '../images/desserts/chocolate-malted-cookies.jpg'
+import ChocolateSheetCake from '../images/desserts/chocolate-sheet-cake.jpg'
+import CoconutPecanCake from '../images/desserts/Coconut-Cake-Thumb.jpg'
+import CrispSugarCookies from '../images/desserts/crisp-sugar-cookies.jpg'
+import CrunchyCrispyCookies from '../images/desserts/crispy-crunchy-cookies.jpg'
+import CrunchyNutCookies from '../images/desserts/crunchy-nut-cookies.jpg'
+import FluffyPumpkinDip from '../images/desserts/fluffy-pumpkin-dip.jpg'
+import FrostedBananaBars from '../images/desserts/frosted-banana-bars.jpg'
+import FruitCake from '../images/desserts/Fruitcake.jpg'
+import FruitPizza from '../images/desserts/fruit-pizza.jpg'
+import GingerCookies from '../images/desserts/ginger-cookies.jpg'
+import GooeyButterCake from '../images/desserts/gooey-butter-cake.jpeg'
+import GooeyButterCookies from '../images/desserts/gooey-butter-cookies.jpg'
+import ApplePieFilling from '../images/desserts/Apple-Pie-Filling.jpg'
+import ApplesauceCookies from '../images/desserts/applesauce-cookies.jpg'
+import CherryPie from '../images/desserts/cherry-pie.jpg'
+import VanillaFudge from '../images/desserts/vanilla_fudge.jpg'
+import KonaBread from '../images/desserts/kona-banana-bread.jpg'
+import GermanChocolateUpsideDownCake from '../images/desserts/upside-down-german-chocolate-cake.jpg'
+import LemonCookies from '../images/desserts/Lemon-Cookies.jpg'
+import LemonCrinkleCakeMixCookies from '../images/desserts/Lemon-cake-mix-cookies.jpg'
+import LemonPoppyBread from '../images/desserts/Lemon-Poppyseed-Bread.jpg'
+import MonkeyBread from '../images/desserts/Monkey-Bread.jpg'
+import Divinity from '../images/desserts/Old-Fashioned-Divinity.jpg'
+import OreoBalls from '../images/desserts/oreo-balls.jpg'
+import BananaPudding from '../images/desserts/Homemade-Banana-Pudding.jpg'
+import PistachioAmbrosia from '../images/desserts/pistachio-ambrosia.jpg'
+import PretzelTurtles from '../images/desserts/turtles.jpeg'
+import PumpkinBread from '../images/desserts/pumpkin-bread.jpg'
+import RussianTeaCakes from '../images/desserts/Russian-Tea-Cakes.jpg'
+import RussianTeaCakesDouble from '../images/desserts/tea-cakes.jpg'
+import SaltineToffee from '../images/desserts/saltine-toffee.jpg'
+import Snickerdoodles from '../images/desserts/snickerdoodles.jpg'
+import SpiceCookiesWithPumpkinDip from '../images/desserts/Easy-Pumpkin-Dip.jpg'
+import SwedishGlogg from '../images/desserts/glogg.jpg'
+import TexasSheetCakeCookies from '../images/desserts/sheet-cake-cookies.png'
+import ThumbprintCookies from '../images/desserts/thumbprint-cookies.jpg'
+import TollHouseCookies from '../images/desserts/choco-cooks.jpeg'
+import ZebraCake from '../images/desserts/zebra-cake.jpg'
 // import '../stylesheets/SideDishes.css';
 
 export default function Desserts({ query, setClickedRecipe}) {
@@ -78,7 +76,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "In a separate bowl, mix 1 tsp. cinnamon and 2 Tbsp. sugar. Sprinkle ½ of it into the bottoms of 2 well-greased bread pans. Pour the batter in equal amounts into the pans then sprinkle with remaining sugar mixture.",
                 "Bake at 325 degrees for about 1 hour or until toothpick comes out clean.",
             ],
-            image: fakeImage
+            image: AmishBread
         },
         {
             name: "Award Winning Gingerbread Cookies",
@@ -108,7 +106,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake for 9-11 minutes",
                 "(Note: Dip half in melted white chocolate and sprinkle with decorations)",
             ],
-            image: fakeImage
+            image: GingerbreadCookies
         },
         {
             name: "Banana Orange Softees",
@@ -133,7 +131,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "(Refer to original recipe image for interpretation)",
             ],
-            image: fakeImage
+            image: BananaOrangeSoftees
         },
         {
             name: "Banana Squares",
@@ -160,7 +158,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Use 13x9x2 pan, bake 45-50 minutes (temp?)",
                 "Let cool"
             ],
-            image: fakeImage
+            image: BananaSquares
         },
         {
             name: "Buttercream Frosting",
@@ -175,7 +173,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Cut butter into powdered sugar.",
                 "Add 1 Tbsp. of milk, beat with electric mixer at least five minutes adding milk one Tbsp. at a time if needed for desired consistency.",
             ],
-            image: fakeImage
+            image: ButtercreamFrosting
         },
         {
             name: "Caramel Corn Puff Treats",
@@ -192,7 +190,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "In a paper bag, dump the popcorn in, then the mixture. Roll top of bag and shake. Put the bag in the microwave for 1 minute. Take out and shake. Do this two more times (should be three 1 minute rounds). Put in a large bowl until cool or eat warm!",
                 "This literally takes ten minutes to make. I have never doubled it because one paper bag takes up my whole microwave. I have made batch after batch and used the same bowl though and it works out just fine!",
             ],
-            image: fakeImage
+            image: CaramelCornPuffTreats
         },
         {
             name: "Cherry Coffee Cake",
@@ -214,7 +212,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Frost with powdered sugar glaze",
                 "(Check original recipe for Susan Borer's personal touches!)",
             ],
-            image: fakeImage
+            image: CherryCoffeeCake
         },
         {
             name: "Chocolate Chip Cookies",
@@ -232,7 +230,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: ChocolateChipCookies
         },
         {
             name: "Chocolate Malted Cookies",
@@ -261,7 +259,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake at 375° for 12-14 minutes",
                 "Cool 2 minutes before removing, makes about 1½ dozen",
             ],
-            image: fakeImage
+            image: ChocolateMaltedCookies
         },
         {
             name: "Chocolate Sheet Cake",
@@ -285,7 +283,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake 350° on a thin greased pan for 30 minutes",
                 "(Icing - Melt these: 1 stick butter, 4 Tbsp. cocoa, 6 Tbsp. milk. Then beat in 1 lb powdered sugar)",
             ],
-            image: fakeImage
+            image: ChocolateSheetCake
         },
         {
             name: "Coconut Pecan Cake",
@@ -299,7 +297,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Mix and add 1 can creamy deluxe coconut pecan frosting in can",
                 "Bake 60 minutes at 350°"
             ],
-            image: fakeImage
+            image: CoconutPecanCake
         },
         {
             name: "Crisp Sugar Cookies",
@@ -321,7 +319,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "No instructions about groupings, but I'm assuming these are the things you mix together in groups before mixing together as a whole",
                 "Bake at 400 degrees for 6-9 minutes",
             ],
-            image: fakeImage
+            image: CrispSugarCookies
         },
         {
             name: "Crunchy Crispy Cookies",
@@ -346,7 +344,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Mix in flour, soda, cream of tartar, vanilla, coconut, corn flakes, chopped nuts",
                 "Bake at 350° 10-12 minutes",
             ],
-            image: fakeImage
+            image: CrunchyCrispyCookies
         },
         {
             name: "Crunchy Nut Cookies",
@@ -367,7 +365,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "When well mixed add chopped nuts, mix well",
                 "Shape into ¾ inch balls and place on greased cookie sheet. Flatten the balls with the bottom of a water glass which has been greased and dipped in sugar. Bake in oven at 375 degrees F for 8 to 10 minutes. Makes approximately 4 dozen",
             ],
-            image: fakeImage
+            image: CrunchyNutCookies
         },
         {
             name: "Fluffy Pumpkin Dip",
@@ -380,7 +378,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: FluffyPumpkinDip
         },
         {
             name: "Frosted Banana Bars",
@@ -402,7 +400,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Pour into a greased 15x10x1 inch baking pan",
                 "Bake at 350° for 25 minutes, then cool and frost",
             ],
-            image: fakeImage
+            image: FrostedBananaBars
         },
         {
             name: "Fruit Cake",
@@ -420,7 +418,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Sprinkle pecan pieces over top",
                 "Bake at 325° 45-60 minutes",
             ],
-            image: fakeImage
+            image: FruitCake
         },
         {
             name: "Fruit Pizza",
@@ -440,7 +438,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Cool a bit, then drizzle on top of fruit",
                 "This will keep fruit in place and keep it from turning brown",
             ],
-            image: fakeImage
+            image: FruitPizza
         },
         {
             name: "Ginger Cookies",
@@ -462,7 +460,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Chill one hour, roll into balls and into sugar",
                 "Bake 350° approximately 10 minutes, but watch",
             ],
-            image: fakeImage
+            image: GingerCookies
         },
         {
             name: "Gooey Butter Cake",
@@ -480,7 +478,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Sprinkle with powdered sugar",
                 "Bake until golden brown at 325° for 45 minutes",
             ],
-            image: fakeImage
+            image: GooeyButterCake
         },
         {
             name: "Gooey Butter Cookies",
@@ -500,7 +498,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Roll into 1 inch balls, roll in powdered sugar",
                 "Bake 10 minutes at 350",
             ],
-            image: fakeImage
+            image: GooeyButterCookies
         },
         {
             name: "Gram's Apple Pie Filling",
@@ -518,7 +516,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Dot butter on top",
                 "Bake at 425° for about 25 minutes",
             ],
-            image: fakeImage
+            image: ApplePieFilling
         },
         {
             name: "Gram's Applesauce Cookies",
@@ -537,7 +535,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: ApplesauceCookies
         },
         {
             name: "Gram's Cherry Pie",
@@ -558,7 +556,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "No instructions provided",
             ],
-            image: fakeImage
+            image: CherryPie
         },
         {
             name: "Gram's Vanilla Fudge",
@@ -580,7 +578,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Add 2nd group of ingredients then beat until it begins to set (don't let it set too much while beating)",
                 "Spread on a buttered plate",
             ],
-            image: fakeImage
+            image: VanillaFudge
         },
         {
             name: "Jonene's Kona Bread",
@@ -599,7 +597,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Pour in greased 9x9 pan",
                 "Bake 30 minutes",
             ],
-            image: fakeImage
+            image: KonaBread
         },
         {
             name: "Joy's German Chocolate Upside Down Cake",
@@ -624,7 +622,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Cool before serving",
                 "Serve upside down on dessert plates",
             ],
-            image: fakeImage
+            image: GermanChocolateUpsideDownCake
         },
         {
             name: "Lemon Cookies",
@@ -647,7 +645,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Mix until smooth. Drizzle over cookies when the cookies have cooled. Store the leftover icing in the refrigerator.",
                 "Recipe Notes: I placed my cookies on a baking rack to spoon (drizzle) on the icing. The icing will drip off so you might want to place a piece of parchment paper under to catch the drops. (Note: I don't use a baking rack, just waxed paper)"
             ],
-            image: fakeImage
+            image: LemonCookies
         },
         {
             name: "Lemon Crinkle Cake Mix Cookies",
@@ -665,7 +663,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake at 350° F (180° C) for 10-12 minutes",
                 "Enjoy!",
             ],
-            image: fakeImage
+            image: LemonCrinkleCakeMixCookies
         },
         {
             name: "Lemon Poppy Bread",
@@ -689,7 +687,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "(Glaze)",
                 "Mix on stove until dissolved and spread by spoonful on loaves while they are partly cooled you will have some liquid left and the bread freezes well",
             ],
-            image: fakeImage
+            image: LemonPoppyBread
         },
         {
             name: "Monkey Bread",
@@ -713,7 +711,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Pour mixture over biscuits",
                 "Bake at 375° for 15-17 minutes",
             ],
-            image: fakeImage
+            image: MonkeyBread
         },
         {
             name: "Mrs. Brewster's Divinity",
@@ -741,7 +739,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Then add your optional ingredients and mix well until the shine on the surface begins to dull",
                 "Using two spoons dip out on wax paper; The globs should stand up firm, if not keep stirring until cool enough to stand up firm",
             ],
-            image: fakeImage
+            image: Divinity
         },
         {
             name: "Oreo Balls",
@@ -767,7 +765,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Chill until firm, about 1 hour",
                 "Store in mini muffin liners",
             ],
-            image: fakeImage
+            image: OreoBalls
         },
         {
             name: "Paula Dean's Not Your Mama's Banana Pudding",
@@ -789,7 +787,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Pour the mixture over the cookies and bananas and cover with the remaining cookies",
                 "Refrigerate until ready to serve!",
             ],
-            image: fakeImage
+            image: BananaPudding
         },
         {
             name: "Pistachio Ambrosia",
@@ -812,7 +810,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Fold in fruit, chill for several hours",
                 "Top with pecans just before serving",
             ],
-            image: fakeImage
+            image: PistachioAmbrosia
         },
         {
             name: "Pretzel Turtles",
@@ -831,7 +829,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Cool completely",
                 "Layer between waxed paper in airtight container for storing",
             ],
-            image: fakeImage
+            image: PretzelTurtles
         },
         {
             name: "Pumpkin Bread",
@@ -861,7 +859,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Let it cool enough to handle, wrap in plastic wrap and freeze to seal in moisture",
                 "20-22 minutes for bars",
             ],
-            image: fakeImage
+            image: PumpkinBread
         },
         {
             name: "Russian Tea Cakes",
@@ -881,7 +879,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake 8 minutes until set, not brown",
                 "Cool and roll in powdered sugar",
             ],
-            image: fakeImage
+            image: RussianTeaCakes
         },
         {
             name: "Russian Tea Cakes Double Batch",
@@ -900,7 +898,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake at 400° for about 13 minutes or until starting to brown",
                 "Cool completely, roll in powdered sugar"
             ],
-            image: fakeImage
+            image: RussianTeaCakesDouble
         },
         {
             name: "Saltine Toffee",
@@ -919,7 +917,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake at 350 for 5 minutes",
                 "Remove from the oven and scatter chocolate chips. When melted spread chocolate. Top with chopped nuts",
             ],
-            image: fakeImage
+            image: SaltineToffee
         },
         {
             name: "Soft and Thick Snickerdoodles",
@@ -946,7 +944,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Bake cookies for 10 minutes. The cookies will be very puffy and soft. When they are still very warm, lightly press down on them with the back of a spoon or fork to help flatten them out. Allow cookies to cool on the baking sheet for 10 minutes and transfer to a wire rack to cool completely.",
                 "Cookies remain soft and fresh for 7 days in an airtight container at room temperature.",
             ],
-            image: fakeImage
+            image: Snickerdoodles
         },
         {
             name: "Spice Cookies With Pumpkin Dip",
@@ -988,7 +986,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Serve with spice cookies",
                 "Store in refrigerator",
             ],
-            image: fakeImage
+            image: SpiceCookiesWithPumpkinDip
         },
         {
             name: "Swedish Glogg",
@@ -1016,7 +1014,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Ladle into glasses--SKOL!",
                 "(Note: Try not adding sugar)"
             ],
-            image: fakeImage
+            image: SwedishGlogg
         },
         {
             name: "Texas Sheet Cake Cookies",
@@ -1047,7 +1045,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Scoop out a spoonful of icing and pour over the cookies",
                 "Allow the icing to harden before enjoying",
             ],
-            image: fakeImage
+            image: TexasSheetCakeCookies
         },
         {
             name: "Thumbprint Cookies",
@@ -1076,7 +1074,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Makes 2½ dozen",
                 "Helpful tips: I use a small cookie dropper so they are all the same size. To flatten them, I put butter on the flat bottom of a drinking glass, then dip it in sugar so it doesnt stick to the cookie. I used a baby spoon to make the indentions and then to spoon in the jam. Caution-If you use too much jam, it will bubble over during baking. Also, I use the air bake insulated cookie sheets, it prevents them from burning on the bottom.",
             ],
-            image: fakeImage
+            image: ThumbprintCookies
         },
         {
             name: "Toll House Cookies",
@@ -1086,7 +1084,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             instructions: [
                 "Read original recipe",
             ],
-            image: fakeImage
+            image: TollHouseCookies
         },
         {
             name: "Zebra Cake III",
@@ -1105,7 +1103,7 @@ export default function Desserts({ query, setClickedRecipe}) {
                 "Cover tightly and refrigerate overnight.",
                 "To serve, slice diagonally to create striped pieces.",
             ],
-            image: fakeImage
+            image: ZebraCake
         }
     ]
 
