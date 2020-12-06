@@ -1029,22 +1029,31 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: fakeImage
         },
         {
-            name: "",
+            name: "Toll House Cookies",
             ingredients: [
-                "",
+                "This recipe get's it's measurements from the recipe it's stuck to. Best to read the original recipe for this one.",
             ],
             instructions: [
-                "",
+                "Read original recipe",
             ],
             image: fakeImage
         },
         {
-            name: "",
+            name: "Zebra Cake III",
             ingredients: [
-                "",
+                "1½ cups heavy whipping cream",
+                "2 Tbsp. confectioners sugar",
+                "2 tsp. vanilla extract",
+                "1 (9 oz) package chocolate wafer cookies",
+                "¼ cup grated chocolated",
             ],
             instructions: [
-                "",
+                "Beat cream in a large glass or metal mixing bwol with an electric mixer. Gradually add confectioners sugar and vanilla extract, continuing to beat until the cream holds stiff peaks. Lift your beater or whisk straight up: the whipped ream should form a sharp peak that holds it's shape.",
+                "Spread a generous teaspoon of whipped cream on each cookie. Press cookies together to make 3-inch stacks.",
+                "Spread a 1-inch wide line of whipped cream down the center of a serving platter. Assemble cookie stacks into a log on platter following the line of whipped cream.",
+                "Frost cookie log with remaining whipped cream and sprinkle with grated chocolate.",
+                "Cover tightly and refrigerate overnight.",
+                "To serve, slice diagonally to create striped pieces.",
             ],
             image: fakeImage
         }

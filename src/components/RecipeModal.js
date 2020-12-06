@@ -100,8 +100,8 @@ import SpiceCookiesWithPumpkinDip from '../images/dessert-recipes/spice-cookies-
 import SwedishGlogg from '../images/dessert-recipes/swedish-glogg.jpg'
 import TexasSheetCakeCookies from '../images/dessert-recipes/texas-sheet-cake-cookies.jpg'
 import ThumbprintCookies from '../images/dessert-recipes/thumbprint-cookies.jpg'
-// import  from '../images/dessert-recipes/'
-// import  from '../images/dessert-recipes/'
+import TollHouseCookies from '../images/dessert-recipes/toll-house-cookies.png'
+import ZebraCakeIII from '../images/dessert-recipes/zebra-cake-III.jpg'
 
 
 export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
@@ -301,10 +301,10 @@ export default function RecipeModal({ clickedRecipe, setClickedRecipe }) {
                 return <img alt="Texas Sheet Cake Cookies recipe" className="modal-img" src={TexasSheetCakeCookies}></img>;
             case "Thumbprint Cookies":
                 return <img alt="Thumbprint Cookies recipe" className="modal-img" src={ThumbprintCookies}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
-            case "":
-                return <img alt=" recipe" className="modal-img" src={SimplyLasagna}></img>;
+            case "Toll House Cookies":
+                return <img alt="Toll House Cookies recipe" className="modal-img" src={TollHouseCookies}></img>;
+            case "Zebra Cake III":
+                return <img alt="Zebra Cake III recipe" className="modal-img" src={ZebraCakeIII}></img>;
         }
     }
 
