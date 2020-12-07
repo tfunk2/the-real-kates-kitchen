@@ -5,6 +5,10 @@ html {
     background-attachment: fixed;
 }
 
+body {
+    font-size: 16px;
+}
+
 input:focus,
 button:focus {
     outline: none;
