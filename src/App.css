@@ -123,7 +123,7 @@ button:focus {
     margin: 0px;
     font-size: 26pt;
     font-family: 'Lilita One', cursive;
-    text-shadow: -3px 3px 3px rgba(3, 58, 53, 0.95);
+    text-shadow: -2px 2px 2px rgba(3, 58, 53, 0.95);
     line-height: 1;
     margin-bottom: 10px;
 }
