@@ -191,14 +191,6 @@ button:focus {
     grid-template-columns: 48vw 48vw;
 }
 
-/* .ingredients-instructions-li {
-    list-style-image: url(./images/single-cherry.png);
-} */
-
-/* .ingredients-instructions-li::marker {
-    content: url(./images/single-cherry-original.png);
-} */
-
 .ingredients-ul {
     list-style-type: none;
     padding-left: 5px;
@@ -333,10 +325,6 @@ button:focus {
         padding-bottom: 0px;
     }
 
-    /* .ingredients-instructions-li::marker {
-        content: url(./images/single-cherry-small.png);
-    } */
-
     .ingredients-ul {
         padding-left: 3px;
         margin-top: 10px;
@@ -423,10 +411,6 @@ button:focus {
         padding-bottom: 0px;
     }
 
-    /* .ingredients-instructions-li::marker {
-        content: url(./images/single-cherry-small.png);
-    } */
-
     .ingredients-ul {
         padding-left: 3px;
         margin-top: 10px;
@@ -465,8 +449,6 @@ button:focus {
         align-self: flex-start;
     }
 
-    /* hey */
-
     .header-div {
         display: flex;
         flex-direction: column;
@@ -496,11 +478,6 @@ button:focus {
         /* text-align: center; */
     }
 
-    /* .grid-div {
-        display: grid;
-        grid-template-columns: 45vw 45vw;
-    } */
-
     .grid-div {
         display: flex;
         flex-direction: column;
@@ -526,10 +503,6 @@ button:focus {
         padding-bottom: 0px;
     }
 
-    /* .ingredients-instructions-li::marker {
-        content: url(./images/single-cherry-original.png);
-    } */
-
     .ingredients-ul {
         padding-left: 3px;
         margin-top: 10px;
@@ -542,11 +515,11 @@ button:focus {
     }
 
     .the-real-text {
-        font-size:4vw;
+        font-size: 4vw;
     }
     
     .title-container, .title-container-darker {
-        /* width: 100%; */
+        width: 100%;
         /* text-align: center; */
         font-size: 6.6vw;
         line-height: .5;
@@ -566,16 +539,6 @@ button:focus {
         margin-top: 0vmin;
         /* min-height: 280px; */
     }
-
-    /* .unexpanded-img {
-        position: absolute;
-        bottom: 12.5px;
-    } */
-
-    /* .header-div {
-        display: flex;
-        flex-direction: column;
-    } */
 
     .section-topper-span {
         text-align: center;
@@ -616,13 +579,6 @@ button:focus {
         /* border-radius: 8pt; */
     }
 
-    /* .recipe-modal {
-        
-    } */
-
-    /* .ingredients-instructions-li::marker {
-        content: url(./images/single-cherry-large.png);
-    } */
 }
 
 /* changing the space at the top for different sizes */

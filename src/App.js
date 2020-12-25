@@ -44,11 +44,11 @@ function App() {
       }
       <header className="app-header">
         <div className="header-div">
-          <h1 className={clickedRecipe === "" ? "title-container" : "title-container-darker"}>
+          <div className={clickedRecipe === "" ? "title-container" : "title-container-darker"}>
             <span className="the-real-text">The Real </span>
             <span className="kates-text">KATE'S </span>
             <span className="kitchen-text">KITCHEN</span>
-          </h1>
+          </div>
           <SearchBar 
             query={query}
             setQuery={setQuery}
