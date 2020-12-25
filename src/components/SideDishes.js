@@ -510,9 +510,15 @@ export default function SideDishes({ query, setClickedRecipe}) {
         filterDishes()
     }, [query])
 
+    const gridId = () => {
+        if(recipesShown.length === 0) {
+            return "no-results-div"
+        }
+    }
+
     return(
         <div className="dishes-div">
-            <div className="grid-div" id={recipesShown.length > 0 ? "nothing" : "no-results-div"}>
+            <div className="grid-div" id={gridId()}>
                 {recipesShown.length > 0 ? dishes : <h1 className="sorry-no-results">Sorry, no results matching "{query}"</h1>}
             </div>
         </div>

@@ -48,6 +48,10 @@ button:focus {
 }
 
 .kates-text {
+
+}
+
+.kates-text, .kates-text-darker {
     text-shadow: 2px 2px 1px rgb(1, 25, 54);
     margin: 0px 0px 0px 1vw;
     font-family: 'Lilita One', cursive;
@@ -57,10 +61,6 @@ button:focus {
 }
 
 .kates-text-darker {
-    text-shadow: 2px 2px 1px rgb(1, 25, 54);
-    margin: 0px 0px 0px 1vw;
-    font-family: 'Lilita One', cursive;
-    font-size: 5vw;
     color: rgb(135,130,119);
 }
 
@@ -537,12 +537,13 @@ button:focus {
         font-size:4vw;
     }
     
-    .kates-text {
-        width: 100%;
+    .kates-text, .kates-text-darker {
+        /* width: 100%; */
         text-align: center;
         font-size: 6.6vw;
         line-height: .5;
         margin-top: 10px;
+        margin-left: 20px;
     }
     
     .kitchen-text {
