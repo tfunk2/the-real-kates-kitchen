@@ -47,20 +47,25 @@ button:focus {
     font-size: 3vw;
 }
 
-.kates-text {
-
+.title-container span {
+    margin-right: 14px;
 }
 
-.kates-text, .kates-text-darker {
+.title-container, .title-container-darker {
+    width: 100%;
     text-shadow: 2px 2px 1px rgb(1, 25, 54);
     margin: 0px 0px 0px 1vw;
     font-family: 'Lilita One', cursive;
     font-size: 5vw;
     line-height: .8;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
-.kates-text-darker {
+.title-container-darker {
     color: rgb(135,130,119);
 }
 
@@ -266,12 +271,13 @@ button:focus {
         font-size: 6vw;
     }
     
-    .kates-text {
+    .title-container {
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         font-size: 10vw;
         line-height: .5;
         margin-top: 12px;
+        justify-content: center;
     }
     
     .kitchen-text {
@@ -361,12 +367,13 @@ button:focus {
         font-size: 6vw;
     }
     
-    .kates-text {
+    .title-container {
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         font-size: 10vw;
         line-height: .5;
         margin-top: 14px; 
+        justify-content: center;
     }
     
     .kitchen-text {
@@ -435,12 +442,13 @@ button:focus {
         font-size: 18pt;
     }
     
-    .kates-text {
+    .title-container {
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         font-size: 30pt;
         line-height: .5;
         margin-top: 14px;
+        justify-content: center;
     }
     
     .kitchen-text {
@@ -537,9 +545,9 @@ button:focus {
         font-size:4vw;
     }
     
-    .kates-text, .kates-text-darker {
+    .title-container, .title-container-darker {
         /* width: 100%; */
-        text-align: center;
+        /* text-align: center; */
         font-size: 6.6vw;
         line-height: .5;
         margin-top: 10px;
