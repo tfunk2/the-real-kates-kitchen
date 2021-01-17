@@ -250,7 +250,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
         {
             name: "Gram's Meatloaf",
             ingredients: [
-                "5 lbs hamburger",
+                "1.5 lbs hamburger",
                 "1 egg",
                 "Salt and pepper",
                 "1 cup milk",
@@ -288,7 +288,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             image: PerfectWaffles
         },
         {
-            name: "Grilled Cheese - Oven",
+            name: "G.J.'s Grilled Cheese - Oven",
             ingredients: [
                 "Bread",
                 "Cheese slices",
@@ -644,7 +644,7 @@ export default function MainDishes({ query, setClickedRecipe }) {
             image: ZuppaToscana
         },
         {
-            name: "White Chicken Enchiladas",
+            name: "G.J.'s White Chicken Enchiladas",
             ingredients: [
                 "10 soft taco shells",
                 "2 cups cooked, shredded chicken",

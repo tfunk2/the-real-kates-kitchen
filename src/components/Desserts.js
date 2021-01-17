@@ -421,7 +421,7 @@ export default function Desserts({ query, setClickedRecipe}) {
             image: FruitCake
         },
         {
-            name: "Fruit Pizza",
+            name: "G.J.'s Fruit Pizza",
             ingredients: [
                 "1 package Pillsbury sugar cookie dough (room temperature)",
                 "1 package flavored cream cheese (pineapple or strawberry)",
